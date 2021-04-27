@@ -12,8 +12,8 @@ import {
   NavLink,
   NavbarText
 } from 'reactstrap';
-import { Toast, ToastBody } from 'reactstrap';
-
+import { Progress } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 
 const NavComponent = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +21,7 @@ const NavComponent = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
+    <div className="vert-align">
       <Navbar color="dark" light expand="md">
         <NavbarBrand href="/" style={{color: "white"}}>reactstrap</NavbarBrand>
         <NavbarToggler onClick={toggle} />
@@ -41,14 +41,10 @@ const NavComponent = (props) => {
   );
 }
 
-const ToastCard = (props) => {
+const ProgressBar = (props) => {
   return (
-    <div className="toast_body">
-        <Toast>
-          <ToastBody>
-            Components to be placed here!
-          </ToastBody>
-        </Toast>
+    <div>
+      <Progress color="info"/>
     </div>
   );
 };
@@ -56,7 +52,16 @@ const ToastCard = (props) => {
 
 class App extends Component {
   state = {
-    url: ['https://soundcloud.com/kinabeats/kina-can-we-kiss-foreverfeat-adriana-proenza?in_system_playlist=charts-top%3Apop%3Ain','https://soundcloud.com/tycho/tycho-awake'] ,
+    url: ['https://soundcloud.com/kinabeats/kina-can-we-kiss-foreverfeat-adriana-proenza',
+    'https://soundcloud.com/tycho/tycho-awake',
+    'https://soundcloud.com/astronaut5/dupa-lipa-new-rules',
+    'https://soundcloud.com/bruno-torres-remixes/sia-cheap-thrills-ft-sean-paul-bruno-torres-remix',
+    'https://soundcloud.com/cryjaxxtoo/friends-remix',
+    'https://soundcloud.com/iluiz/dark-horse',
+    'https://soundcloud.com/chazmazzota/post-malone-better-now-chaz-mazzota-cover',
+    'https://soundcloud.com/thomasmgreen/zayn-ft-sia-dusk-till-dawn',
+    'https://soundcloud.com/user-228129319/imagine-dragons-bad-liar',
+    'https://soundcloud.com/flymuzikchannel/without-me-halsey' ] ,
     pip: false,
     playing: false,
     controls: false,
@@ -185,15 +190,72 @@ class App extends Component {
 
     return (
       <div className='app'>
-         <NavComponent />
-        <section className='section'>
-          <div className='player-wrapper'>
-          <ReactPlayer
+          <div className="stickyheader">
+            <NavComponent sticky="top"/>
+          </div>
+          <div className="stickycontent">
+            <div className="inner">
+         <Container fluid="fluid">
+         <div><br></br><br></br><br></br></div>
+           <Row>
+             <Col> <ReactPlayer
               ref={this.ref}
               className='react-player'
               width='100%'
-              height='100%'
+              height='120%'
               url={url[0]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={true}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration}/>  </Col>
+             <Col><ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='100%'
+              height='120%'
+              url={url[1]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={true}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration} /></Col>
+             <Col><ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='100%'
+              height='120%'
+              url={url[2]}
               pip={pip}
               playing={playing}
               controls={controls}
@@ -213,15 +275,13 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration}
-            />       
-                 
-            <ReactPlayer
+              onDuration={this.handleDuration} /></Col>
+              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
               width='100%'
-              height='100%'
-              url={url[1]}
+              height='120%'
+              url={url[3]}
               pip={pip}
               playing={playing}
               controls={controls}
@@ -232,19 +292,177 @@ class App extends Component {
               muted={muted}
               onReady={() => console.log('onReady')}
               onStart={() => console.log('onStart')}
-              onPlay={this.handlePlay}
+              /*onPlay={this.handlePlay}*/
               onEnablePIP={this.handleEnablePIP}
               onDisablePIP={this.handleDisablePIP}
               onPause={this.handlePause}
               onBuffer={() => console.log('onBuffer')}
-              /*onSeek={e => console.log('onSeek', e)}*/z
+              onSeek={e => console.log('onSeek', e)}
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration}
-            />
-          </div>
-
+              onDuration={this.handleDuration} /></Col>
+             <Col><ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='100%'
+              height='120%'
+              url={url[4]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={light}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration} /></Col>
+           </Row>
+           <div><br></br><br></br></div>
+           <Row>
+             <Col> <ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='100%'
+              height='120%'
+              url={url[5]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={light}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration}/>  </Col>
+             <Col><ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='100%'
+              height='120%'
+              url={url[6]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={light}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration} /></Col>
+             <Col><ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='100%'
+              height='120%'
+              url={url[7]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={light}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration} /></Col>
+              <Col><ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='100%'
+              height='120%'
+              url={url[8]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={light}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration} /></Col>
+             <Col><ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='100%'
+              height='120%'
+              url={url[9]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={light}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration} /></Col>
+           </Row>
+         </Container >
           <table>
             <tbody>
               <tr>
@@ -270,9 +488,12 @@ class App extends Component {
               <tr>
                 <th>Seek</th>
                 <td>
+                  <Progress min={0} max={0.999999} value={played} />
                   <input
                     type='range' min={0} max={0.999999} step='any'
                     value={played}
+                    onSeekStart={this.handleSeek}
+                    onSeekEnd={this.handleSeekEnd}
                     onMouseDown={this.handleSeekMouseDown}
                     onChange={this.handleSeekChange}
                     onMouseUp={this.handleSeekMouseUp}
@@ -297,22 +518,15 @@ class App extends Component {
               </tr>
             </tbody>
           </table>
-        </section>
-        <ToastCard />
+        </div>
+        </div>
+       
+        <div class="stickyfooter">
+          <h2>Footer to place volume and seek bar functionalities</h2>
+        </div>
       </div>
     )
   }
 }
-
-/*
-function App() {
-  return (
-    <div className="Nav">
-      <NavComponent />
-       <ToastCard />
-    </div>
-  );
-}
-*/
 
 export default App;
