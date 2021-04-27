@@ -52,16 +52,58 @@ const ProgressBar = (props) => {
 
 class App extends Component {
   state = {
-    url: ['https://soundcloud.com/kinabeats/kina-can-we-kiss-foreverfeat-adriana-proenza',
-    'https://soundcloud.com/tycho/tycho-awake',
-    'https://soundcloud.com/astronaut5/dupa-lipa-new-rules',
-    'https://soundcloud.com/bruno-torres-remixes/sia-cheap-thrills-ft-sean-paul-bruno-torres-remix',
-    'https://soundcloud.com/cryjaxxtoo/friends-remix',
-    'https://soundcloud.com/iluiz/dark-horse',
-    'https://soundcloud.com/chazmazzota/post-malone-better-now-chaz-mazzota-cover',
-    'https://soundcloud.com/thomasmgreen/zayn-ft-sia-dusk-till-dawn',
-    'https://soundcloud.com/user-228129319/imagine-dragons-bad-liar',
-    'https://soundcloud.com/flymuzikchannel/without-me-halsey' ] ,
+    url: [ 
+      'https://soundcloud.com/thechemicalbrothers/the-darkness-that-you-fear-1',
+      'https://soundcloud.com/usmanmani-offical/seeti-maar-radhe-your-most',
+      'https://soundcloud.com/wittlowry/put-me-first-feat-josh-golden',
+      'https://soundcloud.com/rohit-singh-613323043/jee-ni-karda-from-sardar-ka',
+      'https://soundcloud.com/theweeknd/the-weeknd-ariana-grande-save',
+      'https://soundcloud.com/officialspeedrecords/wafa-na-raas-aayee',
+      'https://soundcloud.com/jj-lin-official/track-7',
+      'https://soundcloud.com/taeoxo/blue',
+      'https://soundcloud.com/jenakan-jeyarajah/lift-inna-mylu-sivakarthikeyankavin',
+      'https://soundcloud.com/inderveer-singh-237716693/tum-pe-hum-toh-bole-chudiyan-nawazuddin-siddiqui-tamannaah-bhatia',
+      'https://soundcloud.com/seif-rafik-921090088/astronaut-in-the-ocean',
+      'https://soundcloud.com/theweeknd/blinding-lights',
+      'https://soundcloud.com/tonesandi-music/dance-monkey',
+      'https://soundcloud.com/joey-dougherty-442864431/shawn-mendes-camila-cabello-senorita-joey-doc-remix',
+      'https://soundcloud.com/blackstarmot/justin-bieber-peaches-feat-daniel-caesar-giveon',
+      'https://soundcloud.com/r3hab/the-chainsmokers-halsey-closer-r3hab-remix-1',
+      'https://soundcloud.com/nocopyrightmusiic/1368_faded',
+      'https://soundcloud.com/jhuneabecovers/memories-maroon-5',
+      'https://soundcloud.com/dualipa/levitating-feat-dababy',
+      'https://soundcloud.com/edsheeran/shape-of-you',
+      'https://soundcloud.com/user-825379895/taylor-swift-willow',
+      'https://soundcloud.com/officialjadalee/positions-ariana-grande',
+      'https://soundcloud.com/tran5luc3nt_trtl/heartbreak-anniversary-slowed',
+      'https://soundcloud.com/octobersveryown/drake-whats-next',
+      'https://soundcloud.com/nghtmre/goosebumps-nghtmre-remix',
+      'https://soundcloud.com/albertrosenbackup/olivia-rodrigo-drivers-license-albert-rosen-remix-2',
+      'https://soundcloud.com/macklemore/good-old-days-ft-kesha',
+      'https://soundcloud.com/auroraaksnes/runawaysingle?in_system_playlist=charts-top%3Apop%3Ain',
+      'https://soundcloud.com/wellaonthebeat/bts-dynamite-side-b-ver',
+      'https://soundcloud.com/ladygaga/rain-on-me-purple-disco',
+      'https://soundcloud.com/desimelodies/lut-gaye',
+      'https://soundcloud.com/officialspeedrecords/brown-munde',
+      'https://soundcloud.com/celebrity-hub/nadiyon-paar-let-the-music',
+      'https://soundcloud.com/sohaib-hassan-8/dil-mein-ho-tum-by-armaan-malik-emraan-hashmi-cheat-india',
+      'https://soundcloud.com/chandra-mohan-mishra-743588254/agar-tum-saath-ho',
+      'https://soundcloud.com/vijayakumar-mayuooran/dhee-ft-arivu-enjoy-enjaami-prod-santhosh-narayanan-audiotrimmercom',
+      'https://soundcloud.com/ahsan-bin-saif/khairiyat-arjit-singh',
+      'https://soundcloud.com/web-tafri/tujhe-kitna-chahne-lage',
+      'https://soundcloud.com/user-713826249/buttabomma',
+      'https://soundcloud.com/user-128952576/liggi-ritviz-8d-track',
+      'https://soundcloud.com/harnoorhere/waalian-by-harnoor',
+      'https://soundcloud.com/user-372843377/vaathi-coming-starmusiq-top',
+      'https://soundcloud.com/sho-soft19/ghungroo-war-mp3',
+      'https://soundcloud.com/hammad-javed-302364557/tu-hi-yaar-mera',
+      'https://soundcloud.com/desimelodies/saiyaan-ji',
+      'https://soundcloud.com/siddharth-rajpurohit-318820092/hawayein-jab-harry-met-sejal',
+      'https://soundcloud.com/user-888293352/saranga-dariya-love-story-new-movie-dj-song-2021-rs-dj-production-sircilla',
+      'https://soundcloud.com/prinka-parm-90882925/shayad-love-aaj-kal-2-arijit-1',
+      'https://soundcloud.com/telugu-dj-songs-offical/chitti-2021-new-movie-jathiratnalu-dj-song-my-style-dandiya-mix-dj-bunny-x-dj-raju-asp-medak',
+      'https://soundcloud.com/ab-roke/luka-chuppi-duniyaa-full-video-song-kartik-aaryan-kriti-sanon-akhil-dhvani-b-vubey'
+    ] ,
     pip: false,
     playing: false,
     controls: false,
@@ -199,41 +241,41 @@ class App extends Component {
          <div><br></br><br></br><br></br></div>
            <Row>
              <Col> <ReactPlayer
-              ref={this.ref}
-              className='react-player'
-              width='100%'
-              height='120%'
-              url={url[0]}
-              pip={pip}
-              playing={playing}
-              controls={controls}
-              light={true}
-              loop={loop}
-              playbackRate={playbackRate}
-              volume={volume}
-              muted={muted}
-              onReady={() => console.log('onReady')}
-              onStart={() => console.log('onStart')}
-              /*onPlay={this.handlePlay}*/
-              onEnablePIP={this.handleEnablePIP}
-              onDisablePIP={this.handleDisablePIP}
-              onPause={this.handlePause}
-              onBuffer={() => console.log('onBuffer')}
-              onSeek={e => console.log('onSeek', e)}
-              onEnded={this.handleEnded}
-              onError={e => console.log('onError', e)}
-              onProgress={this.handleProgress}
-              onDuration={this.handleDuration}/>  </Col>
+             ref={this.ref}
+             className='react-player'
+             width='100%'
+             height='150%'
+             url={url[0]}
+             pip={pip}
+             playing={playing}
+             controls={controls}
+             light={light}
+             loop={loop}
+             playbackRate={playbackRate}
+             volume={volume}
+             muted={muted}
+             onReady={() => console.log('onReady')}
+             onStart={() => console.log('onStart')}
+             /*onPlay={this.handlePlay}*/
+             onEnablePIP={this.handleEnablePIP}
+             onDisablePIP={this.handleDisablePIP}
+             onPause={this.handlePause}
+             onBuffer={() => console.log('onBuffer')}
+             onSeek={e => console.log('onSeek', e)}
+             onEnded={this.handleEnded}
+             onError={e => console.log('onError', e)}
+             onProgress={this.handleProgress}
+             onDuration={this.handleDuration}/>  </Col>
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
               width='100%'
-              height='120%'
+              height='150%'
               url={url[1]}
               pip={pip}
               playing={playing}
               controls={controls}
-              light={true}
+              light={light}
               loop={loop}
               playbackRate={playbackRate}
               volume={volume}
@@ -254,7 +296,7 @@ class App extends Component {
               ref={this.ref}
               className='react-player'
               width='100%'
-              height='120%'
+              height='150%'
               url={url[2]}
               pip={pip}
               playing={playing}
@@ -280,7 +322,7 @@ class App extends Component {
               ref={this.ref}
               className='react-player'
               width='100%'
-              height='120%'
+              height='150%'
               url={url[3]}
               pip={pip}
               playing={playing}
@@ -306,7 +348,7 @@ class App extends Component {
               ref={this.ref}
               className='react-player'
               width='100%'
-              height='120%'
+              height='150%'
               url={url[4]}
               pip={pip}
               playing={playing}
@@ -329,13 +371,13 @@ class App extends Component {
               onProgress={this.handleProgress}
               onDuration={this.handleDuration} /></Col>
            </Row>
-           <div><br></br><br></br></div>
+           <div><br></br><br></br><br></br><br></br><br></br><br></br><br></br></div>
            <Row>
              <Col> <ReactPlayer
               ref={this.ref}
               className='react-player'
               width='100%'
-              height='120%'
+              height='150%'
               url={url[5]}
               pip={pip}
               playing={playing}
@@ -361,7 +403,7 @@ class App extends Component {
               ref={this.ref}
               className='react-player'
               width='100%'
-              height='120%'
+              height='150%'
               url={url[6]}
               pip={pip}
               playing={playing}
@@ -387,7 +429,7 @@ class App extends Component {
               ref={this.ref}
               className='react-player'
               width='100%'
-              height='120%'
+              height='150%'
               url={url[7]}
               pip={pip}
               playing={playing}
@@ -413,7 +455,7 @@ class App extends Component {
               ref={this.ref}
               className='react-player'
               width='100%'
-              height='120%'
+              height='150%'
               url={url[8]}
               pip={pip}
               playing={playing}
@@ -439,7 +481,7 @@ class App extends Component {
               ref={this.ref}
               className='react-player'
               width='100%'
-              height='120%'
+              height='150%'
               url={url[9]}
               pip={pip}
               playing={playing}
@@ -462,8 +504,10 @@ class App extends Component {
               onProgress={this.handleProgress}
               onDuration={this.handleDuration} /></Col>
            </Row>
+           <div><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br></div>
+           <h1>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
          </Container >
-          <table>
+          <table >
             <tbody>
               <tr>
                 <th>Controls</th>
