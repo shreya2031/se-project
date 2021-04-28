@@ -15,6 +15,9 @@ import {
 } from 'reactstrap';
 import { Progress } from 'reactstrap';
 import { Container, Row, Col } from 'reactstrap';
+import Popover from 'react-bootstrap/Popover';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Button from 'react-bootstrap/Button';
 
 const NavComponent = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -1641,9 +1644,20 @@ class App extends Component {
           <Col className="prog_bar" xs="auto">
           <Progress min={0} max={0.999999} value={played} color="dark"/> 
           </Col>
-            
-         <Image src='vol.png' size='small'/>
-        <input id="vol" type='range' min={0} max={1} step='any' value={volume} onChange={this.handleVolumeChange}/>   
+          <OverlayTrigger placement="right"
+            trigger="click"
+            overlay={
+            <Popover>
+              <Popover.Content>
+              <input id="vol" type='range' min={0} max={1} step='any' value={volume} onChange={this.handleVolumeChange}/> 
+              </Popover.Content>
+            </Popover>
+            }
+          >
+            <Button variant="outline-dark" size="sm"><Image src='vol.png' /></Button>
+          </OverlayTrigger>
+         
+          
         </div>
       </div>
     )
