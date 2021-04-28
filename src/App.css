@@ -37,8 +37,5 @@ html, body {
   height: 100%;
   overflow-x: hidden;
   overflow: auto;
-}
-
-.contents-table {
-  margin-top: 70px;
+  color: rgb(235, 228, 219);
 }
