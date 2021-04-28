@@ -55,7 +55,7 @@ class App extends Component {
   state = {
     url: [ 
       'https://soundcloud.com/thechemicalbrothers/the-darkness-that-you-fear-1',
-      'https://soundcloud.com/usmanmani-offical/seeti-maar-radhe-your-most',
+      'https://soundcloud.com/red-line-music-company-india/seeti_maar-radhe',
       'https://soundcloud.com/wittlowry/put-me-first-feat-josh-golden',
       'https://soundcloud.com/rohit-singh-613323043/jee-ni-karda-from-sardar-ka',
       'https://soundcloud.com/theweeknd/the-weeknd-ariana-grande-save',
@@ -1637,10 +1637,13 @@ class App extends Component {
         </div>
        
         <div class="stickyfooter">
-        <Progress min={0} max={0.999999} value={played} />     
+          <br></br>
+          <Col className="prog_bar" xs="auto">
+          <Progress min={0} max={0.999999} value={played} color="dark"/> 
+          </Col>
+            
          <Image src='vol.png' size='small'/>
-        <input type='range' min={0} max={1} step='any' value={volume} onChange={this.handleVolumeChange} />   
-        
+        <input id="vol" type='range' min={0} max={1} step='any' value={volume} onChange={this.handleVolumeChange}/>   
         </div>
       </div>
     )

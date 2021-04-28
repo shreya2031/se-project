@@ -45,3 +45,17 @@ html, body {
 .artist{
   color: grey;
 }
+
+.prog_bar {
+  width: 90%;
+}
+
+#vol {
+    background: linear-gradient(#343439);
+    border: solid 1px #82CFD0;
+    border-radius: 8px;
+    height: 7px;
+    outline: none;
+
+    -webkit-appearance: none;
+}
