@@ -39,3 +39,9 @@ html, body {
   overflow: auto;
   color: rgb(235, 228, 219);
 }
+.song{
+  color: white;
+}
+.artist{
+  color: grey;
+}
