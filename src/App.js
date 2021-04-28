@@ -1656,8 +1656,6 @@ class App extends Component {
           >
             <Button variant="outline-dark" size="sm"><Image src='vol.png' /></Button>
           </OverlayTrigger>
-         
-          
         </div>
       </div>
     )
