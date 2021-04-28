@@ -239,13 +239,13 @@ class App extends Component {
             <div className="inner">
          <Container fluid="fluid">
          <div><br></br><br></br><br></br></div>
-         <h3>Featured This Week</h3>
-           <Row>
+         <div class="song"><h1>Featured this week</h1></div>
+         <Row>
              <Col> <ReactPlayer
              ref={this.ref}
              className='react-player'
-             width='250px'
-             height='250px'
+             width='200px'
+             height='200px'
              url={url[0]}
              pip={pip}
              playing={playing}
@@ -266,12 +266,14 @@ class App extends Component {
              onEnded={this.handleEnded}
              onError={e => console.log('onError', e)}
              onProgress={this.handleProgress}
-             onDuration={this.handleDuration}/>  </Col>
+             onDuration={this.handleDuration}/>
+             <div class="song">The Darkness That You Fear<br></br></div>
+              <div class="artist"><p>The Chemical Brothers</p></div></Col>         
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[1]}
               pip={pip}
               playing={playing}
@@ -292,13 +294,14 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} 
-              /><b>Seeti Maar</b><br></br>Kamaal Khan, Iulia Vantur</Col>
+              onDuration={this.handleDuration} />
+              <div class="song">Seeti Maar<br></br></div>
+              <div class="artist"><p>Devi Sri Prasad</p></div></Col>           
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[2]}
               pip={pip}
               playing={playing}
@@ -319,12 +322,14 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} /></Col>
+              onDuration={this.handleDuration} />
+              <div class="song">Put Me First<br></br></div>
+              <div class="artist"><p>Wittlowry ft. Josh Golden</p></div></Col>
               <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[3]}
               pip={pip}
               playing={playing}
@@ -345,12 +350,14 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} /></Col>
+              onDuration={this.handleDuration} />
+              <div class="song">Jee Ni Karda<br></br></div>
+              <div class="artist"><p>Tanishk Bagchi</p></div></Col>
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[4]}
               pip={pip}
               playing={playing}
@@ -371,15 +378,17 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} /></Col>
+              onDuration={this.handleDuration} />
+              <div class="song">Save Your Tears<br></br></div>
+              <div class="artist"><p>The Weeknd, Ariana Grande</p></div></Col>
            </Row>
            <div><br></br></div>
            <Row>
              <Col> <ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[5]}
               pip={pip}
               playing={playing}
@@ -400,12 +409,14 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration}/>  </Col>
+              onDuration={this.handleDuration}/> 
+              <div class="song">Wafa Na Raas Aye<br></br></div>
+              <div class="artist"><p>Jubin Nautiyal, Meet Bros</p></div></Col>
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[6]}
               pip={pip}
               playing={playing}
@@ -426,12 +437,15 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} /></Col>
+              onDuration={this.handleDuration} />
+              <div class="song">Bedroom<br></br></div>
+              <div class="artist"><p>JJ Lin [feat. Anne-Marie]</p></div></Col>
+              
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[7]}
               pip={pip}
               playing={playing}
@@ -452,12 +466,14 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} /></Col>
+              onDuration={this.handleDuration} />
+              <div class="song">Blue<br></br></div>
+              <div class="artist"><p>Taeoxo</p></div></Col>
               <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[8]}
               pip={pip}
               playing={playing}
@@ -478,12 +494,14 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} /></Col>
+              onDuration={this.handleDuration} />
+              <div class="song">Inna Mylu<br></br></div>
+              <div class="artist"><p>Britto Michael, Sivakarthikeyan</p></div></Col>
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[9]}
               pip={pip}
               playing={playing}
@@ -504,42 +522,47 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} /></Col>
+              onDuration={this.handleDuration} />
+              <div class="song">Tum Pe Hum Tho<br></br></div>
+              <div class="artist"><p>Raj Barman, Raghav Sachar</p></div></Col>
            </Row>
            <div><br></br><br></br><br></br></div>
-            <h3>Trending Now</h3>
-            <Row>
-             <Col> <ReactPlayer
-             ref={this.ref}
-             className='react-player'
-             width='250px'
-             height='250px'
-             url={url[10]}
-             pip={pip}
-             playing={playing}
-             controls={controls}
-             light={true}
-             loop={loop}
-             playbackRate={playbackRate}
-             volume={volume}
-             muted={muted}
-             onReady={() => console.log('onReady')}
-             onStart={() => console.log('onStart')}
-             /*onPlay={this.handlePlay}*/
-             onEnablePIP={this.handleEnablePIP}
-             onDisablePIP={this.handleDisablePIP}
-             onPause={this.handlePause}
-             onBuffer={() => console.log('onBuffer')}
-             onSeek={e => console.log('onSeek', e)}
-             onEnded={this.handleEnded}
-             onError={e => console.log('onError', e)}
-             onProgress={this.handleProgress}
-             onDuration={this.handleDuration}/>  </Col>
-             <Col><ReactPlayer
+          
+           <div class="song"><h1>Tending Now</h1></div>
+           <Row>
+           <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
+              url={url[10]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={true}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration} />
+              <div class="song">Astronaut In The Ocean<br></br></div>
+              <div class="artist"><p>Seif Rafik</p></div></Col>
+              <Col><ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='200px'
+              height='200px'
               url={url[11]}
               pip={pip}
               playing={playing}
@@ -560,13 +583,14 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} 
-              /></Col>
-             <Col><ReactPlayer
+              onDuration={this.handleDuration} />
+              <div class="song">Blinding Lights<br></br></div>
+              <div class="artist"><p>The Weeknd</p></div></Col>
+              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[12]}
               pip={pip}
               playing={playing}
@@ -587,12 +611,14 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} /></Col>
+              onDuration={this.handleDuration} />
+              <div class="song">Dance Monkey<br></br></div>
+              <div class="artist"><p>Tones and I</p></div></Col>
               <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[13]}
               pip={pip}
               playing={playing}
@@ -613,12 +639,14 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} /></Col>
-             <Col><ReactPlayer
+              onDuration={this.handleDuration} />
+              <div class="song">Senorita Joey Doc Remix<br></br></div>
+              <div class="artist"><p>Joey Dougherty</p></div></Col>
+              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[14]}
               pip={pip}
               playing={playing}
@@ -639,15 +667,14 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} /></Col>
-           </Row>
-           <div><br></br></div>
-           <Row>
-             <Col> <ReactPlayer
+              onDuration={this.handleDuration} />
+              <div class="song">Peaches<br></br></div>
+              <div class="artist"><p>Justin Bieber</p></div></Col>
+              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[15]}
               pip={pip}
               playing={playing}
@@ -668,12 +695,14 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration}/>  </Col>
-             <Col><ReactPlayer
+              onDuration={this.handleDuration} />
+              <div class="song">Closer R3hab Remix<br></br></div>
+              <div class="artist"><p>R3hab</p></div></Col>
+              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[16]}
               pip={pip}
               playing={playing}
@@ -694,12 +723,14 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} /></Col>
-             <Col><ReactPlayer
+              onDuration={this.handleDuration} />
+              <div class="song">Faded<br></br></div>
+              <div class="artist"><p>Alan Walker</p></div></Col>
+              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[17]}
               pip={pip}
               playing={playing}
@@ -720,12 +751,14 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} /></Col>
+              onDuration={this.handleDuration} />
+              <div class="song">Memories<br></br></div>
+              <div class="artist"><p>Maroon 5</p></div></Col>
               <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[18]}
               pip={pip}
               playing={playing}
@@ -746,12 +779,14 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} /></Col>
-             <Col><ReactPlayer
+              onDuration={this.handleDuration} />
+              <div class="song">Levitating<br></br></div>
+              <div class="artist"><p>Dua Lipa ft. Dababy</p></div></Col>
+              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[19]}
               pip={pip}
               playing={playing}
@@ -772,7 +807,10 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} /></Col>
+              onDuration={this.handleDuration} />
+              <div class="song">Shape Of You<br></br></div>
+              <div class="artist"><p>Ed Sheeran</p></div></Col>
+
            </Row>
            <div><br></br><br></br></div>
             <h3>You might also like</h3>
@@ -1635,7 +1673,10 @@ class App extends Component {
         </div>
        
         <div class="stickyfooter">
-          <h2>Footer to place volume and seek bar functionalities</h2>
+        <Progress min={0} max={0.999999} value={played} />
+         <h2>Footer to place volume and seek bar functionalities</h2>       
+         Volume <input type='range' min={0} max={1} step='any' value={volume} onChange={this.handleVolumeChange} />   
+                
         </div>
       </div>
     )
