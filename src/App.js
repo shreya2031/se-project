@@ -2,6 +2,7 @@ import './App.css';
 import React, { useState } from 'react';
 import { Component } from 'react'
 import ReactPlayer from 'react-player'
+import { Image } from 'semantic-ui-react'
 import {
   Collapse,
   Navbar,
@@ -1553,6 +1554,7 @@ class App extends Component {
               width='200px'
               height='200px'
               url={url[49]}
+              
               pip={pip}
               playing={playing}
               controls={controls}
@@ -1571,8 +1573,9 @@ class App extends Component {
               onSeek={e => console.log('onSeek', e)}
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
-              onProgress={this.handleProgress}
+              onProgress={this.handleProgress}              
               onDuration={this.handleDuration} /><b>Duniyaa</b><br></br>Ahil, Dhvani Bhanushali</Col>
+              
            </Row>
          </Container >
           <table >
@@ -1634,10 +1637,10 @@ class App extends Component {
         </div>
        
         <div class="stickyfooter">
-        <Progress min={0} max={0.999999} value={played} />
-         <h2>Footer to place volume and seek bar functionalities</h2>       
-         Volume <input type='range' min={0} max={1} step='any' value={volume} onChange={this.handleVolumeChange} />   
-                
+        <Progress min={0} max={0.999999} value={played} />     
+         <Image src='vol.png' size='small'/>
+        <input type='range' min={0} max={1} step='any' value={volume} onChange={this.handleVolumeChange} />   
+        
         </div>
       </div>
     )
