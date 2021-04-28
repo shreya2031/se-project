@@ -239,7 +239,7 @@ class App extends Component {
             <div className="inner">
          <Container fluid="fluid">
          <div><br></br><br></br><br></br></div>
-         <div class="song"><h1>Featured this week</h1></div>
+         <h3>Featured this week</h3>
          <Row>
              <Col> <ReactPlayer
              ref={this.ref}
@@ -267,8 +267,7 @@ class App extends Component {
              onError={e => console.log('onError', e)}
              onProgress={this.handleProgress}
              onDuration={this.handleDuration}/>
-             <div class="song">The Darkness That You Fear<br></br></div>
-              <div class="artist"><p>The Chemical Brothers</p></div></Col>         
+             <b>The Darkness That You Fear</b><br></br>The Chemical Brothers</Col>         
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
@@ -294,9 +293,7 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} />
-              <div class="song">Seeti Maar<br></br></div>
-              <div class="artist"><p>Devi Sri Prasad</p></div></Col>           
+              onDuration={this.handleDuration} /><b>Seeti Maar</b><br></br>Devi Sri Prasad</Col>           
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
@@ -322,9 +319,7 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} />
-              <div class="song">Put Me First<br></br></div>
-              <div class="artist"><p>Wittlowry ft. Josh Golden</p></div></Col>
+              onDuration={this.handleDuration} /><b>Put Me First</b><br></br>Wittlowry ft. Josh Golden</Col>
               <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
@@ -350,9 +345,7 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} />
-              <div class="song">Jee Ni Karda<br></br></div>
-              <div class="artist"><p>Tanishk Bagchi</p></div></Col>
+              onDuration={this.handleDuration} /><b>Jee Ni Karda</b><br></br>Tanishk Bagchi</Col>
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
@@ -378,9 +371,7 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} />
-              <div class="song">Save Your Tears<br></br></div>
-              <div class="artist"><p>The Weeknd, Ariana Grande</p></div></Col>
+              onDuration={this.handleDuration} /><b>Save Your Tears</b><br></br>The Weeknd, Ariana Grande</Col>
            </Row>
            <div><br></br></div>
            <Row>
@@ -409,9 +400,7 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration}/> 
-              <div class="song">Wafa Na Raas Aye<br></br></div>
-              <div class="artist"><p>Jubin Nautiyal, Meet Bros</p></div></Col>
+              onDuration={this.handleDuration}/><b>Wafa Na Raas Aye</b><br></br>Jubin Nautiyal, Meet Bros</Col>
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
@@ -437,10 +426,7 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} />
-              <div class="song">Bedroom<br></br></div>
-              <div class="artist"><p>JJ Lin [feat. Anne-Marie]</p></div></Col>
-              
+              onDuration={this.handleDuration} /><b>Bedroom</b><br></br>JJ Lin [feat. Anne-Marie]</Col>
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
@@ -466,9 +452,7 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} />
-              <div class="song">Blue<br></br></div>
-              <div class="artist"><p>Taeoxo</p></div></Col>
+              onDuration={this.handleDuration} /><b>Blue</b><br></br>Taeoxo</Col>
               <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
@@ -494,9 +478,7 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} />
-              <div class="song">Inna Mylu<br></br></div>
-              <div class="artist"><p>Britto Michael, Sivakarthikeyan</p></div></Col>
+              onDuration={this.handleDuration} /><b>Inna Mylu</b><br></br>Britto Michael, Sivakarthikeyan</Col>
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
@@ -522,13 +504,10 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} />
-              <div class="song">Tum Pe Hum Tho<br></br></div>
-              <div class="artist"><p>Raj Barman, Raghav Sachar</p></div></Col>
+              onDuration={this.handleDuration} /><b>Tum Pe Hum Tho</b><br></br>Raj Barman, Raghav Sachar</Col>
            </Row>
-           <div><br></br><br></br><br></br></div>
-          
-           <div class="song"><h1>Tending Now</h1></div>
+           <div><br></br><br></br></div>
+           <h3>Trending Now</h3>
            <Row>
            <Col><ReactPlayer
               ref={this.ref}
@@ -555,9 +534,7 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} />
-              <div class="song">Astronaut In The Ocean<br></br></div>
-              <div class="artist"><p>Seif Rafik</p></div></Col>
+              onDuration={this.handleDuration} /><b>Astronaut In The Ocean</b><br></br>Seif Rafik</Col>
               <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
@@ -583,9 +560,7 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} />
-              <div class="song">Blinding Lights<br></br></div>
-              <div class="artist"><p>The Weeknd</p></div></Col>
+              onDuration={this.handleDuration} /><b>Blinding Lights</b><br></br>The Weeknd</Col>
               <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
@@ -611,9 +586,7 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} />
-              <div class="song">Dance Monkey<br></br></div>
-              <div class="artist"><p>Tones and I</p></div></Col>
+              onDuration={this.handleDuration} /><b>Dance Monkey</b><br></br>Tones and I</Col>
               <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
@@ -639,9 +612,7 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} />
-              <div class="song">Senorita Joey Doc Remix<br></br></div>
-              <div class="artist"><p>Joey Dougherty</p></div></Col>
+              onDuration={this.handleDuration} /><b>Senorita Joey Doc Remix</b><br></br>Joey Dougherty</Col>
               <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
@@ -667,9 +638,10 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} />
-              <div class="song">Peaches<br></br></div>
-              <div class="artist"><p>Justin Bieber</p></div></Col>
+              onDuration={this.handleDuration} /><b>Peaches</b><br></br>Justin Bieber</Col>
+              </Row>
+              <div><br></br><br></br></div>
+              <Row>
               <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
@@ -695,9 +667,7 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} />
-              <div class="song">Closer R3hab Remix<br></br></div>
-              <div class="artist"><p>R3hab</p></div></Col>
+              onDuration={this.handleDuration} /><b>Closer R3hab Remix</b><br></br>R3hab</Col>
               <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
@@ -723,9 +693,7 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} />
-              <div class="song">Faded<br></br></div>
-              <div class="artist"><p>Alan Walker</p></div></Col>
+              onDuration={this.handleDuration} /><b>Faded</b><br></br>Alan Walker</Col>
               <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
@@ -751,9 +719,7 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} />
-              <div class="song">Memories<br></br></div>
-              <div class="artist"><p>Maroon 5</p></div></Col>
+              onDuration={this.handleDuration} /><b>Memories</b><br></br>Maroon 5</Col>
               <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
@@ -779,9 +745,7 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} />
-              <div class="song">Levitating<br></br></div>
-              <div class="artist"><p>Dua Lipa ft. Dababy</p></div></Col>
+              onDuration={this.handleDuration} /><b>Levitating</b><br></br>Dua Lipa ft. Dababy</Col>
               <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
@@ -807,10 +771,7 @@ class App extends Component {
               onEnded={this.handleEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.handleProgress}
-              onDuration={this.handleDuration} />
-              <div class="song">Shape Of You<br></br></div>
-              <div class="artist"><p>Ed Sheeran</p></div></Col>
-
+              onDuration={this.handleDuration} /><b>Shape Of You</b><br></br>Ed Sheeran</Col>
            </Row>
            <div><br></br><br></br></div>
             <h3>You might also like</h3>
@@ -818,8 +779,8 @@ class App extends Component {
              <Col> <ReactPlayer
              ref={this.ref}
              className='react-player'
-             width='250px'
-             height='250px'
+             width='200px'
+             height='200px'
              url={url[20]}
              pip={pip}
              playing={playing}
@@ -844,8 +805,8 @@ class App extends Component {
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[21]}
               pip={pip}
               playing={playing}
@@ -871,8 +832,8 @@ class App extends Component {
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[22]}
               pip={pip}
               playing={playing}
@@ -897,8 +858,8 @@ class App extends Component {
               <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[23]}
               pip={pip}
               playing={playing}
@@ -923,8 +884,8 @@ class App extends Component {
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[24]}
               pip={pip}
               playing={playing}
@@ -952,8 +913,8 @@ class App extends Component {
              <Col> <ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[25]}
               pip={pip}
               playing={playing}
@@ -978,8 +939,8 @@ class App extends Component {
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[26]}
               pip={pip}
               playing={playing}
@@ -1004,8 +965,8 @@ class App extends Component {
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[27]}
               pip={pip}
               playing={playing}
@@ -1030,8 +991,8 @@ class App extends Component {
               <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[28]}
               pip={pip}
               playing={playing}
@@ -1056,8 +1017,8 @@ class App extends Component {
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[29]}
               pip={pip}
               playing={playing}
@@ -1086,8 +1047,8 @@ class App extends Component {
              <Col> <ReactPlayer
              ref={this.ref}
              className='react-player'
-             width='250px'
-             height='250px'
+             width='200px'
+             height='200px'
              url={url[30]}
              pip={pip}
              playing={playing}
@@ -1112,8 +1073,8 @@ class App extends Component {
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[31]}
               pip={pip}
               playing={playing}
@@ -1138,8 +1099,8 @@ class App extends Component {
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[32]}
               pip={pip}
               playing={playing}
@@ -1164,8 +1125,8 @@ class App extends Component {
               <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[33]}
               pip={pip}
               playing={playing}
@@ -1190,8 +1151,8 @@ class App extends Component {
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[34]}
               pip={pip}
               playing={playing}
@@ -1219,8 +1180,8 @@ class App extends Component {
              <Col> <ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[35]}
               pip={pip}
               playing={playing}
@@ -1245,8 +1206,8 @@ class App extends Component {
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[36]}
               pip={pip}
               playing={playing}
@@ -1271,8 +1232,8 @@ class App extends Component {
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[37]}
               pip={pip}
               playing={playing}
@@ -1297,8 +1258,8 @@ class App extends Component {
               <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[38]}
               pip={pip}
               playing={playing}
@@ -1323,8 +1284,8 @@ class App extends Component {
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[39]}
               pip={pip}
               playing={playing}
@@ -1352,8 +1313,8 @@ class App extends Component {
              <Col> <ReactPlayer
              ref={this.ref}
              className='react-player'
-             width='250px'
-             height='250px'
+             width='200px'
+             height='200px'
              url={url[40]}
              pip={pip}
              playing={playing}
@@ -1378,8 +1339,8 @@ class App extends Component {
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[41]}
               pip={pip}
               playing={playing}
@@ -1404,8 +1365,8 @@ class App extends Component {
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[42]}
               pip={pip}
               playing={playing}
@@ -1430,8 +1391,8 @@ class App extends Component {
               <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[43]}
               pip={pip}
               playing={playing}
@@ -1456,8 +1417,8 @@ class App extends Component {
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[44]}
               pip={pip}
               playing={playing}
@@ -1485,8 +1446,8 @@ class App extends Component {
              <Col> <ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[45]}
               pip={pip}
               playing={playing}
@@ -1511,8 +1472,8 @@ class App extends Component {
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[46]}
               pip={pip}
               playing={playing}
@@ -1537,8 +1498,8 @@ class App extends Component {
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[47]}
               pip={pip}
               playing={playing}
@@ -1563,8 +1524,8 @@ class App extends Component {
               <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[48]}
               pip={pip}
               playing={playing}
@@ -1589,8 +1550,8 @@ class App extends Component {
              <Col><ReactPlayer
               ref={this.ref}
               className='react-player'
-              width='250px'
-              height='250px'
+              width='200px'
+              height='200px'
               url={url[49]}
               pip={pip}
               playing={playing}
