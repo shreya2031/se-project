@@ -1,16 +1,11 @@
 import './App.css';
-import React, { useState } from 'react';
+import React from 'react';
 import { Component } from 'react'
-import { Progress } from 'reactstrap';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Home from './components/Home';
 import Weather from './components/Weather';
 
 const NavComponent = (props) => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => setIsOpen(!isOpen);
-
   return (
     <Router>
         <div>
@@ -29,14 +24,6 @@ const NavComponent = (props) => {
       </Router>
   );
 }
-
-const ProgressBar = (props) => {
-  return (
-    <div>
-      <Progress color="info"/>
-    </div>
-  );
-};
 
 class App extends Component {
   render () {
