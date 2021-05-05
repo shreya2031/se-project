@@ -7,7 +7,11 @@ import { Container, Row, Col } from 'reactstrap';
 import Popover from 'react-bootstrap/Popover';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Button from 'react-bootstrap/Button';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlay, faPause } from '@fortawesome/free-solid-svg-icons'
+//npm i --save @fortawesome/free-solid-svg-icons
+//npm i --save @fortawesome/react-fontawesome
+//npm i --save @fortawesome/fontawesome-svg-core
 class Home extends Component {
     state = {
         url: [ 
@@ -1607,6 +1611,8 @@ class Home extends Component {
               >
                 <Button variant="outline-dark" size="sm"><Image src='vol.png' /></Button>
               </OverlayTrigger>
+              <Button id="play" variant="secondary" onClick={this.handlePlayPause}><FontAwesomeIcon icon={playing ? faPause : faPlay} /></Button>
+              
             </div>
           </div>
         )
