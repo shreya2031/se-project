@@ -1,0 +1,26 @@
+below 10                    Thunderstorm,Drizzle,Rain,Snow,clear,clouds
+
+10-20
+
+20-25 - snow
+
+25-30 - snow
+
+30-35 - snow
+
+35-40 - snow
+
+40+ - remove thunderstorm/snow
+
+
+below 10 , 1st half of 10-20  - Preethal
+
+2nd half of 10-20 , 20-25   - Tushara
+
+20-25, 1st half of 25-30    - Shreya
+
+2nd half of 25-30, 30-35 - Sahithi
+
+35-40, 40+
+
+Based on feels like and weather.main
