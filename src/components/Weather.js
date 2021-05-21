@@ -289,8 +289,70 @@ class Weather extends React.Component {
                   {this.state.temperature && (
                   <div>
                   <span className="weather-value">Temperature: {Math.round((this.state.temperature - 32)*5/9)}&#176;C</span>
+                  {
+                                (((this.state.temperature - 32)*5/9) < 29 && this.state.description == "clear sky") ? (
+                                  <ReactPlayer
+                  ref={this.ref}
+                  className='react-player'
+                  width='200px'
+                  height='200px'
+                  url={url[1]}
+                  pip={pip}
+                  playing={playing}
+                  controls={controls}
+                  light={true}
+                  loop={loop}
+                  playbackRate={playbackRate}
+                  volume={volume}
+                  muted={muted}
+                  onReady={() => console.log('onReady')}
+                  onStart={() => console.log('onStart')}
+                  /*onPlay={this.handlePlay}*/
+                  onEnablePIP={this.handleEnablePIP}
+                  onDisablePIP={this.handleDisablePIP}
+                  onPause={this.handlePause}
+                  onBuffer={() => console.log('onBuffer')}
+                  onSeek={e => console.log('onSeek', e)}
+                  onEnded={this.handleEnded}
+                  onError={e => console.log('onError', e)}
+                  onProgress={this.handleProgress}
+                  onDuration={this.handleDuration} />
+                                  ) : ('')
+                                }
+
+                  {
+                                (((this.state.temperature - 32)*5/9) > 30 ) ? (
+                                  <ReactPlayer
+                  ref={this.ref}
+                  className='react-player'
+                  width='200px'
+                  height='200px'
+                  url={url[2]}
+                  pip={pip}
+                  playing={playing}
+                  controls={controls}
+                  light={true}
+                  loop={loop}
+                  playbackRate={playbackRate}
+                  volume={volume}
+                  muted={muted}
+                  onReady={() => console.log('onReady')}
+                  onStart={() => console.log('onStart')}
+                  /*onPlay={this.handlePlay}*/
+                  onEnablePIP={this.handleEnablePIP}
+                  onDisablePIP={this.handleDisablePIP}
+                  onPause={this.handlePause}
+                  onBuffer={() => console.log('onBuffer')}
+                  onSeek={e => console.log('onSeek', e)}
+                  onEnded={this.handleEnded}
+                  onError={e => console.log('onError', e)}
+                  onProgress={this.handleProgress}
+                  onDuration={this.handleDuration} />
+                                  ) : ('')
+                                }
+
                         {
-                                (this.state.temperature > 30 && this.state.description == "scattered clouds") ? (
+                                (  (((this.state.temperature - 32)*5/9) > 30 ) && this.state.description == "heavy intensity rain") ? (
                      <div>             
                 <Row>
                  <Col> <ReactPlayer
