@@ -2283,7 +2283,7 @@ class Weather extends React.Component {
                 ) : ('')
               }
               {
-              (((this.state.temperature - 32)*5/9) >= 30 && ((this.state.temperature - 32)*5/9)<35 && (this.state.description =="Clouds" || this.state.description =="Drizzle" || this.state.description =="Rain" || this.state.description =="Thunderstorm")) ? (
+              (((this.state.temperature - 32)*5/9) >= 35 && ((this.state.temperature - 32)*5/9)<40 && (this.state.description =="Clouds" || this.state.description =="Drizzle" || this.state.description =="Rain" || this.state.description =="Thunderstorm")) ? (
                 <div>
                 <Row>
                 <Col>
@@ -3125,7 +3125,7 @@ class Weather extends React.Component {
 
                   </div>
                   )}
-
+                  <br></br>
                   <h4>You might also like</h4>
                   <Row>
                <Col><ReactPlayer
@@ -3411,7 +3411,18 @@ class Weather extends React.Component {
               </OverlayTrigger>
               <Button id="play" variant="secondary" onClick={this.handlePlayPause}><FontAwesomeIcon icon={playing ? faPause : faPlay} /></Button>
               <Col className="prog_bar" sm="12" md={{ size: 8, offset: 2 }} fluid="xl">
-              <Progress min={0} max={0.999999} value={played} color="dark" style={{"width":"100%"}} fluid={true}/> 
+              
+              <input
+                        type='range' min={0} max={0.999999} step='any'
+                        value={played}
+                        onSeekStart={this.handleSeek}
+                        onSeekEnd={this.handleSeekEnd}
+                        onMouseDown={this.handleSeekMouseDown}
+                        onChange={this.handleSeekChange}
+                        onMouseUp={this.handleSeekMouseUp}
+                        style={{"width":"100%"}} fluid={true}
+                        color="dark"
+                      />
               </Col>
              <br></br>
             </div>

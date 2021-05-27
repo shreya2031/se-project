@@ -32,3 +32,4 @@ Done:
 30-35 - Clear, Clouds, Drizzle, Rain, Thunderstorm
 35-40 - Clear, Clouds, Drizzle, Rain, Thunderstorm
 
+<Progress min={0} max={0.999999} value={played} color="dark" style={{"width":"100%"}} fluid={true}/>
