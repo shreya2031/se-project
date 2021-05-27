@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 .vert-align {
@@ -18,6 +23,11 @@ html, body {
   
 }
 
+.nav-font {
+  font-family: 'Dancing Script', cursive;
+  font-size: xx-large;
+  font-weight: 9000;
+}
 .stickyfooter {
   padding: 0px 0;
   position: fixed;
@@ -32,9 +42,41 @@ html, body {
 .stickycontent {
   padding: 0px 0;
   overflow-x: hidden;
-  background-color: #343439;
+  /*background-color: #343439;*/
+  /*
+  background-image: url(./bg2.gif);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  */
+  background-image: url(./img4.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 2;
 }
 .inner {
+  height: 100%;
+  overflow-x: hidden;
+  overflow: auto;
+  color: rgb(235, 228, 219);
+}
+.stickycontent-weather {
+  padding: 0px 0;
+  overflow-x: hidden;
+  /*background-color: #343439;*/
+  
+  background-image: url(./img2.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 2;
+
+}
+.inner-weather {
   height: 100%;
   overflow-x: hidden;
   overflow: auto;
@@ -68,3 +110,127 @@ html, body {
 .weather-page {
   
 }
+.weather-info {
+  font-size: 20px;
+  margin-top: -20%;
+  margin-left: 33%;
+  position: absolute;
+}
+
+.searchTerm1 {
+  width: 25%;
+  border: 3px solid #fff;
+  padding: 5px;
+  height: 50px;
+  border-radius: 25px;
+  outline: none;
+  color: #9DBFAF;
+  margin-top: 7%;
+  margin-left: 20%;
+  
+}
+
+.searchTerm1:focus{
+  color: #151616;
+}
+
+.searchTerm2 {
+  width: 25%;
+  border: 3px solid #fff;
+  padding: 5px;
+  height: 50px;
+  border-radius: 25px;
+  outline: none;
+  color: #9DBFAF;
+  margin-top: 7%;
+  margin-left: 5%;
+}
+
+.searchTerm2:focus{
+  color: #151616;
+}
+
+.weather-button {
+  font-size: larger;
+  margin-top: 4%;
+  margin-left: 40%;
+  width: 15%;
+  height: 40px;
+  border: 1px solid rgb(15, 15, 15);
+  border-radius: 25px;
+  font-family: 'Sigmar One', cursive;
+  background-color: #fff;
+  
+}
+
+.weather-catchy {
+  margin-left: 12%;
+  font-size: 72px;
+  font-family: 'Pattaya', sans-serif;
+}
+.typewriter-text {
+  display: inline-block;
+  overflow: hidden;
+  letter-spacing: 2px;
+ animation: typing 5s steps(30, end), blink .75s step-end infinite;
+  white-space: nowrap;
+  border-right: 4px solid rgb(255, 255, 255);
+  box-sizing: border-box;
+}
+
+@keyframes typing {
+  from { 
+      width: 0% 
+  }
+  to { 
+      width: 100% 
+  }
+}
+
+@keyframes blink {
+  from, to { 
+      border-color: transparent 
+  }
+  50% { 
+      border-color: rgb(221, 219, 214); 
+  }
+}
+/*
+@keyframes typewriter {
+  0%, 100% {
+    width: 0;
+  }
+  20%, 80% {
+    width: auto;
+  }
+}
+
+@keyframes caret {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.text_1 {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter;
+  display: inline-block;
+  animation-duration: 30s;
+  animation-timing-function: steps(25, end);
+  animation-iteration-count: infinite;
+}
+
+
+.text_1::after {
+  content: "|";
+  position: absolute;
+  right: 0;
+  animation: caret infinite;
+  animation-duration: 1s;
+  animation-timing-function: steps(1, end);
+}
+*/

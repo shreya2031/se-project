@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import '../App.css';
 import ReactPlayer from 'react-player'
-import { Image } from 'semantic-ui-react'
+import { Image } from 'semantic-ui-react';
 import { Progress } from 'reactstrap';
 import { Container, Row, Col } from 'reactstrap';
 import Popover from 'react-bootstrap/Popover';
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
 import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlay, faPause } from '@fortawesome/free-solid-svg-icons'
+import screenfull from 'screenfull'
+import * as ReactDOM from 'react-dom'
 
 class Home extends Component {
     state = {
@@ -172,6 +174,10 @@ class Home extends Component {
         this.setState({ playing: this.state.loop })
       }
     
+      handleClickFullscreen = () => {
+        screenfull.request(ReactDOM.findDOMNode(this.player))
+      }
+    
       handleDuration = (duration) => {
         console.log('onDuration', duration)
         this.setState({ duration })
@@ -193,7 +199,7 @@ class Home extends Component {
         return (
           <div className='app'>
               <div className="stickycontent">
-                <div className="inner">
+                <div className="inner particle">
              <Container fluid="fluid">
              <div><br></br></div>
              <h3>Featured this week</h3>
@@ -1606,6 +1612,8 @@ class Home extends Component {
               <Button variant="outline-dark" size="sm"><Image src='vol.png' /></Button>
               </OverlayTrigger>
               <Button id="play" variant="secondary" onClick={this.handlePlayPause}><FontAwesomeIcon icon={playing ? faPause : faPlay} /></Button>
+              <button onClick={this.handleClickFullscreen}>Fullscreen</button>
+              <input id='muted' type='checkbox' checked={muted} onChange={this.handleToggleMuted} />
               <Col className="prog_bar" sm="12" md={{ size: 8, offset: 2 }} fluid="xl">
               
               <input
