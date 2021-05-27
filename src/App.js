@@ -12,12 +12,12 @@ const NavComponent = (props) => {
           <nav className="navbar navbar-expand-lg navbar-light bg-dark">
           <ul className="navbar-nav mr-auto">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <li><Link to={'/'} className="nav-link" style={{"color":"white"}}> Home </Link></li>
+            <li><Link to={'/se-project'} className="nav-link" style={{"color":"white"}}> Home </Link></li>
             <li><Link to={'/weather'} className="nav-link" style={{"color":"white"}}>Weather</Link></li>
           </ul>
           </nav>
           <Switch>
-              <Route exact path='/' component={Home} />
+              <Route exact path='/se-project' component={Home} />
               <Route path='/weather' component={Weather} />
           </Switch>
         </div>
