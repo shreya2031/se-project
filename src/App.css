@@ -38,7 +38,7 @@ html, body {
 .stickyfooter {
   padding: 0px 0;
   position: fixed;
-  background: #282828;
+  background: #141414;
   width: 100%;
   color: #fff;
   bottom: 0;
@@ -203,7 +203,7 @@ html, body {
   height: 50px;
   border-radius: 25px;
   outline: none;
-  color: #9DBFAF;
+  color: #161817;
   margin-top: 3%;
   margin-left: 20%;
   
@@ -220,7 +220,7 @@ html, body {
   height: 50px;
   border-radius: 25px;
   outline: none;
-  color: #9DBFAF;
+  color: #0b0c0c;
   margin-top: 3%;
   margin-left: 5%;
 }
