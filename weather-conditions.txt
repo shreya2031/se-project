@@ -27,7 +27,9 @@ Based on feels like and weather.main
 
 
 Done:
-20-25 clear,clouds,Thunderstorm,Rain,Drizzle 
+<10 - Clear,Clouds,Thunderstorm, Snow,Drizzle,Rain
+10-20 - Drizzle, Rain,
+20-25 Clear,Clouds
 25-30 - Drizzle,Clear,Clouds,Thunderstorm,Rain,Thunderstorm
 30-35 - Clear, Clouds, Drizzle, Rain, Thunderstorm
 35-40 - Clear, Clouds, Drizzle, Rain, Thunderstorm

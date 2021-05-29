@@ -11,6 +11,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlay, faPause } from '@fortawesome/free-solid-svg-icons'
 import screenfull from 'screenfull'
 import * as ReactDOM from 'react-dom'
+import ParticlesBg from 'particles-bg';
 
 class Home extends Component {
     state = {
@@ -24,7 +25,7 @@ class Home extends Component {
           'https://soundcloud.com/jj-lin-official/track-7',
           'https://soundcloud.com/taeoxo/blue',
           'https://soundcloud.com/jenakan-jeyarajah/lift-inna-mylu-sivakarthikeyankavin',
-          'https://soundcloud.com/inderveer-singh-237716693/tum-pe-hum-toh-bole-chudiyan-nawazuddin-siddiqui-tamannaah-bhatia',
+          'https://soundcloud.com/o-uzhan-g-n-415529706/jalebi-baby',
           'https://soundcloud.com/seif-rafik-921090088/astronaut-in-the-ocean',
           'https://soundcloud.com/theweeknd/blinding-lights',
           'https://soundcloud.com/tonesandi-music/dance-monkey',
@@ -37,7 +38,7 @@ class Home extends Component {
           'https://soundcloud.com/edsheeran/shape-of-you',
           'https://soundcloud.com/user-825379895/taylor-swift-willow',
           'https://soundcloud.com/officialjadalee/positions-ariana-grande',
-          'https://soundcloud.com/tran5luc3nt_trtl/heartbreak-anniversary-slowed',
+          'https://soundcloud.com/prodbypana/heartbreak-anniversary',
           'https://soundcloud.com/octobersveryown/drake-whats-next',
           'https://soundcloud.com/nghtmre/goosebumps-nghtmre-remix',
           'https://soundcloud.com/albertrosenbackup/olivia-rodrigo-drivers-license-albert-rosen-remix-2',
@@ -199,6 +200,7 @@ class Home extends Component {
         return (
           <div className='app'>
               <div className="stickycontent">
+              <ParticlesBg type="lines" bg={true} />
                 <div className="inner particle">
              <Container fluid="fluid">
              <div><br></br></div>
@@ -467,7 +469,7 @@ class Home extends Component {
                   onEnded={this.handleEnded}
                   onError={e => console.log('onError', e)}
                   onProgress={this.handleProgress}
-                  onDuration={this.handleDuration} /><b>Tum Pe Hum Tho</b><br></br>Raj Barman, Raghav Sachar</Col>
+                  onDuration={this.handleDuration} /><b>Jalebi Baby</b><br></br>Tesher, Jason Derulo</Col>
                </Row>
                <div><br></br><br></br></div>
                <h3>Trending Now</h3>

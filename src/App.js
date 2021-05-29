@@ -4,19 +4,28 @@ import { Component } from 'react'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Home from './components/Home';
 import Weather from './components/Weather';
+import { Navbar,Nav, NavItem } from 'reactstrap';
 
 
 const NavComponent = (props) => {
   return (
     <Router>
-        <div>
-          <nav className="navbar navbar-expand-lg bg-dark">
+        <div className="navbar-fix">
+          <Navbar className="navbar navbar-expand-lg">
+          <Nav className="mr-auto" navbar>
           <ul className="navbar-nav mr-auto">
-            <li style={{"color":"white"}} className="nav-link nav-font">Tiempo Grooves</li>
-            <li><Link to={'/se-project'} className="nav-link" style={{"color":"white","marginLeft":"1600%","fontSize":"18px"}}> Home </Link></li>
-            <li><Link to={'/weather'} className="nav-link" style={{"color":"white","marginLeft":"1300%","fontSize":"18px"}}>Weather</Link></li>
+          <NavItem>
+            <Nav><li style={{"color":"white"}} className="nav-link nav-font">Tiempo Grooves</li></Nav>
+          </NavItem>
+          <NavItem>
+            <Nav><li className="nav1"><Link to={'/se-project'} className="nav-link" style={{"color":"white","fontSize":"18px"}}> Home </Link></li></Nav>
+          </NavItem>
+          <NavItem>
+          <Nav><li className="nav2"><Link to={'/weather'} className="nav-link" style={{"color":"white","fontSize":"18px"}}>Weather</Link></li></Nav>
+          </NavItem>
           </ul>
-          </nav>
+          </Nav>
+          </Navbar>
           <Switch>
               <Route exact path='/se-project' component={Home} />
               <Route path='/weather' component={Weather} />
