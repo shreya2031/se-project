@@ -9,6 +9,8 @@ import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlay, faPause, faVolumeUp, faExpand } from '@fortawesome/free-solid-svg-icons'
+import screenfull from 'screenfull'
+import * as ReactDOM from 'react-dom'
 import ParticlesBg from 'particles-bg';
 
 const Form = props => (
@@ -31,9 +33,9 @@ class Weather extends React.Component {
   //   this.getWeather = this.getWeather.bind(this);
   // }
 
- 
+  
   state = {
-    url: [
+    url: [ 
       'https://soundcloud.com/thechemicalbrothers/the-darkness-that-you-fear-1',
       'https://soundcloud.com/red-line-music-company-india/seeti_maar-radhe',
       'https://soundcloud.com/wittlowry/put-me-first-feat-josh-golden',
@@ -156,63 +158,63 @@ class Weather extends React.Component {
       'https://soundcloud.com/joyal-joseph-524950714/sets/kaathale-96',
       'https://soundcloud.com/dj-regard-1/jay-sean-ride-it-regard-remix',
       'https://soundcloud.com/deanlewisofficial/be-alright',
-      'https://soundcloud.com/lo-freq-1/beat-of-my-heart-feat-love' ,
+      'https://soundcloud.com/lo-freq-1/beat-of-my-heart-feat-love' , 
       'https://soundcloud.com/lo-freq-1/are-you-with-me' ,
       'https://soundcloud.com/wozinho/topic-breaking-me-ft-a7s-wozinho-remix' ,
       'https://soundcloud.com/theneighbourhood/sweater-weather-1' ,
-      'https://soundcloud.com/search?q=lost%20on%20you%20-LP' ,
+      'https://soundcloud.com/search?q=lost%20on%20you%20-LP' , 
       'https://soundcloud.com/sarah-m-108087489/travis-scott-hvme-goosebumps' ,
-      'https://soundcloud.com/daminkerton/travis-scott-butterfly-effect' ,
+      'https://soundcloud.com/daminkerton/travis-scott-butterfly-effect' , 
       'https://soundcloud.com/nfrealmusic/time-extended' ,
       'https://soundcloud.com/search?q=darkhaast%20arijit%20singh' ,
       'https://soundcloud.com/user-81674968/burna-boy-on-the-low-4' ,
       'https://soundcloud.com/tina-basetia/mar-jayian-official-song-vicky-donor-exclusive' ,
-      'https://soundcloud.com/hetp70/yeh-dooriyan-love-aaj-kal-slowed-reverbed' ,
+      'https://soundcloud.com/hetp70/yeh-dooriyan-love-aaj-kal-slowed-reverbed' , 
       'https://soundcloud.com/jasmine-thompson/last-christmas' ,
       'https://soundcloud.com/amandawelton/let-it-go-frozen' ,
       'https://soundcloud.com/nada-zaki-22/demi-lavato-heart-attack-mp3' ,  
-      'https://soundcloud.com/cheatcodesmusic/no-promises-feat-demi-lovato' ,
-      'https://soundcloud.com/batshitcat/enigma-sadness-part-1-2-3' ,
+      'https://soundcloud.com/cheatcodesmusic/no-promises-feat-demi-lovato' , 
+      'https://soundcloud.com/batshitcat/enigma-sadness-part-1-2-3' , 
       'https://soundcloud.com/musicplug300/doja-cat-kiss-me-more-ft-sza?in_system_playlist=charts-top%3Arbsoul%3Aae' ,  
       'https://soundcloud.com/r-sh-kh-n-fr-d/sunny-sunny-ft-yo-yo-honey' ,  
       'https://soundcloud.com/youngblood-pranav/zara-zara-x-cradle-vaseegara' ,  
       'https://soundcloud.com/haya-rajpoot/gerau-dilwale' ,  
-      'https://soundcloud.com/jahangir-khan-970060329/sets/roses-imanbek' ,
-      'https://soundcloud.com/jashn/rum-and-whisky-dj-virtual' ,
-      'https://soundcloud.com/user-396339773/sets/sunset-lover' ,
-      'https://soundcloud.com/ingzamoraventura/stereo-love-edward-maya-ft' ,
-      'https://soundcloud.com/erloonsouza/she-wolf-falling-to-pieces' ,
+      'https://soundcloud.com/jahangir-khan-970060329/sets/roses-imanbek' , 
+      'https://soundcloud.com/jashn/rum-and-whisky-dj-virtual' , 
+      'https://soundcloud.com/user-396339773/sets/sunset-lover' , 
+      'https://soundcloud.com/ingzamoraventura/stereo-love-edward-maya-ft' , 
+      'https://soundcloud.com/erloonsouza/she-wolf-falling-to-pieces' , 
       'https://soundcloud.com/jahseh-onfroy/wanna-grow-old-i-wont-let-go-feat-jimmy-levy' ,  
       'https://soundcloud.com/calvinharris/calvin-harris-summer-extended' ,  
-      'https://soundcloud.com/chrislake/calvin-harris-disciples-how-deep-is-your-love-chris-lake-remix' ,  
+      'https://soundcloud.com/chrislake/calvin-harris-disciples-how-deep-is-your-love-chris-lake-remix' ,   
       'https://soundcloud.com/r3hab/calvin-harris-this-is-what-you-came-for-r3hab-henry-fong-remix' ,
-      'https://soundcloud.com/gummybearintl/blue-da-ba-dee' ,
-      'https://soundcloud.com/fabiana-claudia/50-shades-of-grey-trailer-song-crazy-in-love-beyonce-cover' ,
-      'https://soundcloud.com/emily-rose-321620515/i-hate-you-i-love-you-nightcore-lyrics' ,
-      'https://soundcloud.com/renita-wulandari-isma-dinata/linkin-park-numb' ,
-      'https://soundcloud.com/jamesattibond/sets/rihanna-kanye-west-jay-z-run' ,
-      'https://soundcloud.com/will-post/wonderlust' ,
-      'https://soundcloud.com/jahseh-onfroy/whoa-mind-in-awe' ,
-      'https://soundcloud.com/user-236586846/sets/trampolinezayn-and-shaed' ,
-      'https://soundcloud.com/beyhive123/beyonce-halo-live' ,
-      'https://soundcloud.com/dj-catomix/minimix-wake-me-up-avici-dj' ,
-      'https://soundcloud.com/liluzivert/p2' ,
-      'https://soundcloud.com/alecbenjamin/let-me-down-slowly-feat-alessia-cara' ,
-      'https://soundcloud.com/martingarrix/itnol' ,
+      'https://soundcloud.com/gummybearintl/blue-da-ba-dee' , 
+      'https://soundcloud.com/fabiana-claudia/50-shades-of-grey-trailer-song-crazy-in-love-beyonce-cover' , 
+      'https://soundcloud.com/emily-rose-321620515/i-hate-you-i-love-you-nightcore-lyrics' , 
+      'https://soundcloud.com/renita-wulandari-isma-dinata/linkin-park-numb' , 
+      'https://soundcloud.com/jamesattibond/sets/rihanna-kanye-west-jay-z-run' , 
+      'https://soundcloud.com/will-post/wonderlust' , 
+      'https://soundcloud.com/jahseh-onfroy/whoa-mind-in-awe' , 
+      'https://soundcloud.com/user-236586846/sets/trampolinezayn-and-shaed' , 
+      'https://soundcloud.com/beyhive123/beyonce-halo-live' , 
+      'https://soundcloud.com/dj-catomix/minimix-wake-me-up-avici-dj' , 
+      'https://soundcloud.com/liluzivert/p2' , 
+      'https://soundcloud.com/alecbenjamin/let-me-down-slowly-feat-alessia-cara' , 
+      'https://soundcloud.com/martingarrix/itnol' , 
       'https://soundcloud.com/dancepointmusic/martin-garrix-id-creamfields-2017-fl-studio-remake-free-flp' ,
-      'https://soundcloud.com/iamtrevordaniel/falling' ,
-      'https://soundcloud.com/cloudjm5t/death-bed-coffe-for-your-head-powfu-remix' ,
-      'https://soundcloud.com/tonesandi-music/dance-monkey' ,  
-      'https://soundcloud.com/hammad-javed-302364557/tu-hi-yaar-mera' ,
-      'https://soundcloud.com/l-u-4/selena-gomez-a-year-without' ,
-      'https://soundcloud.com/hiramabif/justin-bieber-by-sara-11' ,
-      'https://soundcloud.com/moshiurasif/tip-tip-barsa-paani-reprise' ,
+      'https://soundcloud.com/iamtrevordaniel/falling' , 
+      'https://soundcloud.com/cloudjm5t/death-bed-coffe-for-your-head-powfu-remix' , 
+      'https://soundcloud.com/tonesandi-music/dance-monkey' ,   
+      'https://soundcloud.com/hammad-javed-302364557/tu-hi-yaar-mera' , 
+      'https://soundcloud.com/l-u-4/selena-gomez-a-year-without' , 
+      'https://soundcloud.com/hiramabif/justin-bieber-by-sara-11' , 
+      'https://soundcloud.com/moshiurasif/tip-tip-barsa-paani-reprise' , 
       'https://soundcloud.com/behzad-83/dharia-sugar-brownies' ,
-      'https://soundcloud.com/bennyblanco/eastside' ,
-      'https://soundcloud.com/magnace/david-guetta-justin-bieber-2u-magnace-remix' ,
-      'https://soundcloud.com/partha-das-841639278/post-malone-swae-lee-sunflower-spider-man-into-the-spider-verse ' ,
-      'https://soundcloud.com/charlieputh/attention-acoustic-official-audio' ,
-      'https://soundcloud.com/mazine3/mar-jawan-full-song-high' ,
+      'https://soundcloud.com/bennyblanco/eastside' , 
+      'https://soundcloud.com/magnace/david-guetta-justin-bieber-2u-magnace-remix' , 
+      'https://soundcloud.com/partha-das-841639278/post-malone-swae-lee-sunflower-spider-man-into-the-spider-verse ' , 
+      'https://soundcloud.com/charlieputh/attention-acoustic-official-audio' , 
+      'https://soundcloud.com/mazine3/mar-jawan-full-song-high' , 
       'https://soundcloud.com/himadripatel',
 
      'https://soundcloud.com/m-1212/bekhayali-kabir-singh-full-version-arijit-singh',
@@ -398,7 +400,9 @@ class Weather extends React.Component {
   handleSetPlaybackRate = e => {
     this.setState({ playbackRate: parseFloat(e.target.value) })
   }
-
+  handleClickFullscreen = () => {
+    screenfull.request(ReactDOM.findDOMNode(this.player))
+  }
   handleTogglePIP = () => {
     this.setState({ pip: !this.state.pip })
   }
@@ -448,7 +452,9 @@ class Weather extends React.Component {
     console.log('onEnded')
     this.setState({ playing: this.state.loop })
   }
-
+  handleClickFullscreen = () => {
+    screenfull.request(ReactDOM.findDOMNode(this.player))
+  }
   handleDuration = (duration) => {
     console.log('onDuration', duration)
     this.setState({ duration })
@@ -482,9 +488,9 @@ class Weather extends React.Component {
                 <input type="text" name="country" placeholder="Country..." className="searchTerm2"/><br></br>
                 <button className="weather-button">Get Songs!</button><br></br><br></br><br></br>
               </form>
-             
+              
               <div id="div-id">
-               
+                
                     {//<p className="weather-error">test</p>
                     this.state.error && <p className="weather-error" style={{"marginLeft":"42%","fontSize":"20px","fontFamily":"fantasy"}}>{this.state.error}</p>}
                   {this.state.temperature && (
@@ -1635,7 +1641,7 @@ Shaan </Col>
         </Container>
             ) : ('')
         }
-                 
+                  
     {
         (((this.state.temperature - 32)*5/9) >= 20 && ((this.state.temperature - 32)*5/9)<25  && (this.state.description =="Snow"))  ? (
             <Container fluid="fluid">
@@ -1919,7 +1925,7 @@ Nautiyal </Col>
             </Container>
                 ) : ('')
             }
-                     
+                      
         {
             (((this.state.temperature - 32)*5/9) >= 20 && ((this.state.temperature - 32)*5/9)<25  && (this.state.description =="Rain"))  ? (
                 <Container fluid="fluid">
@@ -2204,7 +2210,7 @@ Nautiyal </Col>
                 </Container>
                     ) : ('')
                 }
-                         
+                          
             {
                 (((this.state.temperature - 32)*5/9) >= 20 && ((this.state.temperature - 32)*5/9)<25  && (this.state.description =="Thunderstorm"))  ? (
                     <Container fluid="fluid">
@@ -2488,7 +2494,7 @@ Nautiyal </Col>
                     </Container>
                         ) : ('')
                     }
-                             
+                              
                 {
                     (((this.state.temperature - 32)*5/9) >= 20 && ((this.state.temperature - 32)*5/9)<25  && (this.state.description =="Drizzle"))  ? (
                         <Container fluid="fluid">
@@ -2800,7 +2806,7 @@ Nautiyal </Col>
                     onEnded={this.handleEnded}
                     onError={e => console.log('onError', e)}
                     onProgress={this.handleProgress}
-                    onDuration={this.handleDuration}/><b>Regard it</b><br></br>Jay Sean</Col>        
+                    onDuration={this.handleDuration}/><b>Regard it</b><br></br>Jay Sean</Col>         
                     <Col><ReactPlayer
                      ref={this.ref}
                      className='react-player'
@@ -2826,7 +2832,7 @@ Nautiyal </Col>
                      onEnded={this.handleEnded}
                      onError={e => console.log('onError', e)}
                      onProgress={this.handleProgress}
-                     onDuration={this.handleDuration} /><b>Be Alright</b><br></br>Dean Lewis</Col>          
+                     onDuration={this.handleDuration} /><b>Be Alright</b><br></br>Dean Lewis</Col>           
                     <Col><ReactPlayer
                      ref={this.ref}
                      className='react-player'
@@ -3071,7 +3077,7 @@ Nautiyal </Col>
                     onEnded={this.handleEnded}
                     onError={e => console.log('onError', e)}
                     onProgress={this.handleProgress}
-                    onDuration={this.handleDuration}/><b>Darkhaast </b><br></br>Arijit Singh</Col>        
+                    onDuration={this.handleDuration}/><b>Darkhaast </b><br></br>Arijit Singh</Col>         
                     <Col><ReactPlayer
                      ref={this.ref}
                      className='react-player'
@@ -3097,7 +3103,7 @@ Nautiyal </Col>
                      onEnded={this.handleEnded}
                      onError={e => console.log('onError', e)}
                      onProgress={this.handleProgress}
-                     onDuration={this.handleDuration} /><b>On the low</b><br></br>Burna Boy</Col>          
+                     onDuration={this.handleDuration} /><b>On the low</b><br></br>Burna Boy</Col>           
                     <Col><ReactPlayer
                      ref={this.ref}
                      className='react-player'
@@ -3342,7 +3348,7 @@ Nautiyal </Col>
                     onEnded={this.handleEnded}
                     onError={e => console.log('onError', e)}
                     onProgress={this.handleProgress}
-                    onDuration={this.handleDuration}/><b>Sunny Sunny </b><br></br>YO YO Honey singh</Col>        
+                    onDuration={this.handleDuration}/><b>Sunny Sunny </b><br></br>YO YO Honey singh</Col>         
                     <Col><ReactPlayer
                      ref={this.ref}
                      className='react-player'
@@ -3368,7 +3374,7 @@ Nautiyal </Col>
                      onEnded={this.handleEnded}
                      onError={e => console.log('onError', e)}
                      onProgress={this.handleProgress}
-                     onDuration={this.handleDuration} /><b>Vaseegara</b><br></br>Lost Stories</Col>          
+                     onDuration={this.handleDuration} /><b>Vaseegara</b><br></br>Lost Stories</Col>           
                     <Col><ReactPlayer
                      ref={this.ref}
                      className='react-player'
@@ -3613,7 +3619,7 @@ Nautiyal </Col>
                     onEnded={this.handleEnded}
                     onError={e => console.log('onError', e)}
                     onProgress={this.handleProgress}
-                    onDuration={this.handleDuration}/> <b>How deep is your love </b><br></br>Calvin Harris</Col>        
+                    onDuration={this.handleDuration}/> <b>How deep is your love </b><br></br>Calvin Harris</Col>         
                     <Col><ReactPlayer
                      ref={this.ref}
                      className='react-player'
@@ -3639,7 +3645,7 @@ Nautiyal </Col>
                      onEnded={this.handleEnded}
                      onError={e => console.log('onError', e)}
                      onProgress={this.handleProgress}
-                     onDuration={this.handleDuration} /><b>This is what you came for </b><br></br>Calvin Harris</Col>          
+                     onDuration={this.handleDuration} /><b>This is what you came for </b><br></br>Calvin Harris</Col>           
                     <Col><ReactPlayer
                      ref={this.ref}
                      className='react-player'
@@ -3884,7 +3890,7 @@ Nautiyal </Col>
                     onEnded={this.handleEnded}
                     onError={e => console.log('onError', e)}
                     onProgress={this.handleProgress}
-                    onDuration={this.handleDuration}/> <b>Halo</b><br></br>Beyonce</Col>        
+                    onDuration={this.handleDuration}/> <b>Halo</b><br></br>Beyonce</Col>         
                     <Col><ReactPlayer
                      ref={this.ref}
                      className='react-player'
@@ -3910,7 +3916,7 @@ Nautiyal </Col>
                      onEnded={this.handleEnded}
                      onError={e => console.log('onError', e)}
                      onProgress={this.handleProgress}
-                     onDuration={this.handleDuration} /><b>Wake me up</b><br></br>AVICI</Col>          
+                     onDuration={this.handleDuration} /><b>Wake me up</b><br></br>AVICI</Col>           
                     <Col><ReactPlayer
                      ref={this.ref}
                      className='react-player'
@@ -4156,7 +4162,7 @@ Nautiyal </Col>
                     onEnded={this.handleEnded}
                     onError={e => console.log('onError', e)}
                     onProgress={this.handleProgress}
-                    onDuration={this.handleDuration}/> <b>Year without Rain </b><br></br>Selena Gomez</Col>        
+                    onDuration={this.handleDuration}/> <b>Year without Rain </b><br></br>Selena Gomez</Col>         
                     <Col><ReactPlayer
                      ref={this.ref}
                      className='react-player'
@@ -4182,7 +4188,7 @@ Nautiyal </Col>
                      onEnded={this.handleEnded}
                      onError={e => console.log('onError', e)}
                      onProgress={this.handleProgress}
-                     onDuration={this.handleDuration} /><b>EENIE minie </b><br></br>Justin Beiber</Col>          
+                     onDuration={this.handleDuration} /><b>EENIE minie </b><br></br>Justin Beiber</Col>           
                     <Col><ReactPlayer
                      ref={this.ref}
                      className='react-player'
@@ -4428,7 +4434,7 @@ Nautiyal </Col>
                     onEnded={this.handleEnded}
                     onError={e => console.log('onError', e)}
                     onProgress={this.handleProgress}
-                    onDuration={this.handleDuration}/><b>Yummy</b><br></br>Justin Beiber</Col>        
+                    onDuration={this.handleDuration}/><b>Yummy</b><br></br>Justin Beiber</Col>         
                     <Col><ReactPlayer
                      ref={this.ref}
                      className='react-player'
@@ -4454,7 +4460,7 @@ Nautiyal </Col>
                      onEnded={this.handleEnded}
                      onError={e => console.log('onError', e)}
                      onProgress={this.handleProgress}
-                     onDuration={this.handleDuration} /><b>Aluma Doluma</b><br></br>Anirudh</Col>          
+                     onDuration={this.handleDuration} /><b>Aluma Doluma</b><br></br>Anirudh</Col>           
                     <Col><ReactPlayer
                      ref={this.ref}
                      className='react-player'
@@ -4670,7 +4676,7 @@ Nautiyal </Col>
                      </Container>
                                   ) : ('')
                                 }
-             
+              
                   {
                   (((this.state.temperature - 32)*5/9) >= 20 && ((this.state.temperature - 32)*5/9)<25  && (this.state.description =="Clouds"))  ? (
                     <Container fluid="fluid">
@@ -4700,7 +4706,7 @@ Nautiyal </Col>
                     onEnded={this.handleEnded}
                     onError={e => console.log('onError', e)}
                     onProgress={this.handleProgress}
-                    onDuration={this.handleDuration}/><b>Happier</b><br></br>Marshmello ft bastille</Col>        
+                    onDuration={this.handleDuration}/><b>Happier</b><br></br>Marshmello ft bastille</Col>         
                     <Col><ReactPlayer
                      ref={this.ref}
                      className='react-player'
@@ -4726,7 +4732,7 @@ Nautiyal </Col>
                      onEnded={this.handleEnded}
                      onError={e => console.log('onError', e)}
                      onProgress={this.handleProgress}
-                     onDuration={this.handleDuration} /><b>Samajavaragamana</b><br></br>Sid sriram</Col>          
+                     onDuration={this.handleDuration} /><b>Samajavaragamana</b><br></br>Sid sriram</Col>           
                     <Col><ReactPlayer
                      ref={this.ref}
                      className='react-player'
@@ -4971,7 +4977,7 @@ Nautiyal </Col>
                     onEnded={this.handleEnded}
                     onError={e => console.log('onError', e)}
                     onProgress={this.handleProgress}
-                    onDuration={this.handleDuration}/><b>Dont let me down</b><br></br>The Chainsmokers</Col>        
+                    onDuration={this.handleDuration}/><b>Dont let me down</b><br></br>The Chainsmokers</Col>         
                     <Col><ReactPlayer
                      ref={this.ref}
                      className='react-player'
@@ -4997,7 +5003,7 @@ Nautiyal </Col>
                      onEnded={this.handleEnded}
                      onError={e => console.log('onError', e)}
                      onProgress={this.handleProgress}
-                     onDuration={this.handleDuration} /><b>I hate you, I love you</b><br></br>Gnash</Col>          
+                     onDuration={this.handleDuration} /><b>I hate you, I love you</b><br></br>Gnash</Col>           
                     <Col><ReactPlayer
                      ref={this.ref}
                      className='react-player'
@@ -5242,7 +5248,7 @@ Nautiyal </Col>
                     onEnded={this.handleEnded}
                     onError={e => console.log('onError', e)}
                     onProgress={this.handleProgress}
-                    onDuration={this.handleDuration}/> <b>Grande</b><br></br>Ariana Grande</Col>        
+                    onDuration={this.handleDuration}/> <b>Grande</b><br></br>Ariana Grande</Col>         
                     <Col><ReactPlayer
                      ref={this.ref}
                      className='react-player'
@@ -5268,7 +5274,7 @@ Nautiyal </Col>
                      onEnded={this.handleEnded}
                      onError={e => console.log('onError', e)}
                      onProgress={this.handleProgress}
-                     onDuration={this.handleDuration} /><b>Love Story</b><br></br>Taylor Swift</Col>          
+                     onDuration={this.handleDuration} /><b>Love Story</b><br></br>Taylor Swift</Col>           
                     <Col><ReactPlayer
                      ref={this.ref}
                      className='react-player'
@@ -5539,7 +5545,7 @@ Nautiyal </Col>
                      onEnded={this.handleEnded}
                      onError={e => console.log('onError', e)}
                      onProgress={this.handleProgress}
-                     onDuration={this.handleDuration} /><b>Yemito</b><br></br>Haricharan</Col>          
+                     onDuration={this.handleDuration} /><b>Yemito</b><br></br>Haricharan</Col>           
                     <Col><ReactPlayer
                      ref={this.ref}
                      className='react-player'
@@ -7184,7 +7190,7 @@ Nautiyal </Col>
                     onEnded={this.handleEnded}
                     onError={e => console.log('onError', e)}
                     onProgress={this.handleProgress}
-                    onDuration={this.handleDuration}/><b>Sunny Sunny </b><br></br>YO YO Honey singh</Col>        
+                    onDuration={this.handleDuration}/><b>Sunny Sunny </b><br></br>YO YO Honey singh</Col>         
                     <Col><ReactPlayer
                      ref={this.ref}
                      className='react-player'
@@ -7210,7 +7216,7 @@ Nautiyal </Col>
                      onEnded={this.handleEnded}
                      onError={e => console.log('onError', e)}
                      onProgress={this.handleProgress}
-                     onDuration={this.handleDuration} /><b>Vaseegara</b><br></br>Lost Stories</Col>          
+                     onDuration={this.handleDuration} /><b>Vaseegara</b><br></br>Lost Stories</Col>           
                     <Col><ReactPlayer
                      ref={this.ref}
                      className='react-player'
@@ -7439,7 +7445,7 @@ Nautiyal </Col>
                 overlay={
                 <Popover>
                   <Popover.Content>
-                  <input id="vol" type='range' min={0} max={1} step='any' value={volume} onChange={this.handleVolumeChange}/>
+                  <input id="vol" type='range' min={0} max={1} step='any' value={volume} onChange={this.handleVolumeChange}/> 
                   </Popover.Content>
                 </Popover>
                 }
@@ -7450,7 +7456,7 @@ Nautiyal </Col>
               <Button variant="secondary" onClick={this.handleClickFullscreen}><FontAwesomeIcon icon={faExpand}/></Button>
               <input id='muted' type='checkbox' checked={muted} onChange={this.handleToggleMuted} />
               <Col className="prog_bar" sm="12" md={{ size: 8, offset: 2 }} fluid="xl">
-             
+              
               <input
                         type='range' min={0} max={0.999999} step='any'
                         value={played}
@@ -7465,7 +7471,7 @@ Nautiyal </Col>
               </Col>
              <br></br>
             </div>
-           
+            
                
                 </div>
              
