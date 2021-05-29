@@ -8,7 +8,7 @@ import Popover from 'react-bootstrap/Popover';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
 import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPlay, faPause } from '@fortawesome/free-solid-svg-icons'
+import { faPlay, faPause, faVolumeUp, faExpand } from '@fortawesome/free-solid-svg-icons'
 import screenfull from 'screenfull'
 import * as ReactDOM from 'react-dom'
 import ParticlesBg from 'particles-bg';
@@ -1611,10 +1611,10 @@ class Home extends Component {
                 </Popover>
                 }
               >
-              <Button variant="outline-dark" size="sm"><Image src='vol.png' /></Button>
+              <Button variant="secondary" size="sm"><FontAwesomeIcon icon={faVolumeUp}/></Button>
               </OverlayTrigger>
               <Button id="play" variant="secondary" onClick={this.handlePlayPause}><FontAwesomeIcon icon={playing ? faPause : faPlay} /></Button>
-              <button onClick={this.handleClickFullscreen}>Fullscreen</button>
+              <Button variant="secondary" onClick={this.handleClickFullscreen}><FontAwesomeIcon icon={faExpand}/></Button>
               <input id='muted' type='checkbox' checked={muted} onChange={this.handleToggleMuted} />
               <Col className="prog_bar" sm="12" md={{ size: 8, offset: 2 }} fluid="xl">
               
