@@ -41,3 +41,6 @@ Done:
 25-30 - Thunderstorm,Rain,Drizzle,Clouds, Clear
 30-35 - Clouds,Drizzle, Clear, (Thunderstorm,Rain)
 35-40 - Clear, Clouds, Drizzle, Rain,Thunderstorm
+
+<label style={{"marginLeft":"5%","fontSize":"15px","fontFamily":"cursive","marginBottom":"1%"}}>Mute: </label>
+              <input id='muted' type='checkbox' checked={muted} onChange={this.handleToggleMuted}/>

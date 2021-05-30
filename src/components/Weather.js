@@ -7441,37 +7441,39 @@ class Weather extends React.Component {
                   </div>
                 </div>
                   <div class="stickyfooter">
-              <OverlayTrigger placement="right"
-                trigger="click"
-                overlay={
-                <Popover>
-                  <Popover.Content>
-                  <input id="vol" type='range' min={0} max={1} step='any' value={volume} onChange={this.handleVolumeChange}/> 
-                  </Popover.Content>
-                </Popover>
-                }
-              >
-              <Button variant="secondary" size="sm"><FontAwesomeIcon icon={faVolumeUp}/></Button>
-              </OverlayTrigger>
-              <Button id="play" variant="secondary" onClick={this.handlePlayPause}><FontAwesomeIcon icon={playing ? faPause : faPlay} /></Button>
-              <Button variant="secondary" onClick={this.handleClickFullscreen}><FontAwesomeIcon icon={faExpand}/></Button>
-              <input id='muted' type='checkbox' checked={muted} onChange={this.handleToggleMuted} />
-              <Col className="prog_bar" sm="12" md={{ size: 8, offset: 2 }} fluid="xl">
-              
-              <input
-                        type='range' min={0} max={0.999999} step='any'
-                        value={played}
-                        onSeekStart={this.handleSeek}
-                        onSeekEnd={this.handleSeekEnd}
-                        onMouseDown={this.handleSeekMouseDown}
-                        onChange={this.handleSeekChange}
-                        onMouseUp={this.handleSeekMouseUp}
-                        style={{"width":"100%"}} fluid={true}
-                        color="dark"
-                      />
-              </Col>
-             <br></br>
-            </div>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <OverlayTrigger placement="right"
+                      trigger="click"
+                      overlay={
+                      <Popover>
+                        <Popover.Content>
+                        <input id="vol" type='range' min={0} max={1} step='any' value={volume} onChange={this.handleVolumeChange}/> 
+                        </Popover.Content>
+                      </Popover>
+                      }
+                    >
+                    <Button variant="secondary" size="sm"><FontAwesomeIcon icon={faVolumeUp}/></Button>
+                    </OverlayTrigger>
+
+                    
+                    <Button id="play" variant="secondary" onClick={this.handlePlayPause} style={{"marginLeft":"43%"}}><FontAwesomeIcon icon={playing ? faPause : faPlay} /></Button>
+                    <Button variant="secondary" onClick={this.handleClickFullscreen} style={{"marginLeft":"39%"}}><FontAwesomeIcon icon={faExpand}/></Button>
+                    
+
+                    <Col className="prog_bar" sm="12" md={{ size: 8, offset: 2 }} fluid="xl">
+                    <input
+                              type='range' min={0} max={0.999999} step='any'
+                              value={played}
+                              onSeekStart={this.handleSeek}
+                              onSeekEnd={this.handleSeekEnd}
+                              onMouseDown={this.handleSeekMouseDown}
+                              onChange={this.handleSeekChange}
+                              onMouseUp={this.handleSeekMouseUp}
+                              style={{"width":"100%"}} fluid={true}
+                              color="dark"
+                            />
+                    </Col>
+                  </div>
             
                
                 </div>
