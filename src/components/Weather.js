@@ -162,11 +162,11 @@ class Weather extends React.Component {
       'https://soundcloud.com/lo-freq-1/are-you-with-me' ,
       'https://soundcloud.com/wozinho/topic-breaking-me-ft-a7s-wozinho-remix' ,
       'https://soundcloud.com/theneighbourhood/sweater-weather-1' ,
-      'https://soundcloud.com/search?q=lost%20on%20you%20-LP' , 
+      'https://soundcloud.com/iamlpmusic/lost-on-you' , 
       'https://soundcloud.com/sarah-m-108087489/travis-scott-hvme-goosebumps' ,
       'https://soundcloud.com/daminkerton/travis-scott-butterfly-effect' , 
       'https://soundcloud.com/nfrealmusic/time-extended' ,
-      'https://soundcloud.com/search?q=darkhaast%20arijit%20singh' ,
+      'https://soundcloud.com/yousaf-qureshi-82182867/darkhaast-aankhon-mein-teri' ,
       'https://soundcloud.com/user-81674968/burna-boy-on-the-low-4' ,
       'https://soundcloud.com/tina-basetia/mar-jayian-official-song-vicky-donor-exclusive' ,
       'https://soundcloud.com/hetp70/yeh-dooriyan-love-aaj-kal-slowed-reverbed' , 
@@ -217,82 +217,87 @@ class Weather extends React.Component {
       'https://soundcloud.com/mazine3/mar-jawan-full-song-high' , 
       'https://soundcloud.com/himadripatel',
 
-     'https://soundcloud.com/m-1212/bekhayali-kabir-singh-full-version-arijit-singh',
-     'https://soundcloud.com/we-all-love-climax/06-aarambhame-le-anthem-of',
-     'https://soundcloud.com/abdelrhman-hafez-1/nadaan-parindey-ghar-aaja-full-song-rockstar-flv',
-     'https://soundcloud.com/arrahmanofficial/usure-pogudhey',
-     'https://soundcloud.com/sebastian-baar/the-rolling-stones-gimme-shelter',
-     'https://soundcloud.com/himadripatel/pani-da-rang',
-     'https://soundcloud.com/briellevonhugel/the-one-that-got-away',
-     'https://soundcloud.com/esthertran/so-cold-ben-cocks',
-     'https://soundcloud.com/sr-vinai/vellipomaakey-saahasam-swaasaga-saagipo',
-     'https://soundcloud.com/luminous-corner/you-broke-me-first-cover-conor',
-     'https://soundcloud.com/jaishil-bhavsar/subhanallah-full-song-with',
-     'https://soundcloud.com/ducktonbuii/snowman-sia-edited-audio',
-     'https://soundcloud.com/pvn-862671039/edo-jaruguthondi',
-     'https://soundcloud.com/abeiito/main-agar-kahoon-1',
-     'https://soundcloud.com/fbchennai/pudhu-vellai-mazhai-roja',
-     'https://soundcloud.com/ansonseabra/emerald-eyes-1',
-     'https://soundcloud.com/sr-vinai/main-rang-sharbaton-ka-phata-poster-nikla-hero-shahid-ileana-atif-aslam-chinmayi-sripaada',
-     'https://soundcloud.com/nazirtuhin/phir-se-ud-chala-when-chai-met-toast-music-mojo-season-3',
-     'https://soundcloud.com/whenchaimettoast/sets/joy-of-little-things',
-     'https://soundcloud.com/arbab-hassan-4/chota-sa-fasana',
-     'https://soundcloud.com/prakash_info/gira-gira-gira-dear-comrade',
-     'https://soundcloud.com/arainmujahid/patakha-guddi-highway-full',
-     'https://soundcloud.com/ritviz/ritviz-udd-gaye',
-     'https://soundcloud.com/monica-east/kabhi-kabhi-aditi-zindagi',
-     'https://soundcloud.com/bejoy-varghese/pavizha-mazhaye-athiran',
-     'https://soundcloud.com/interscope/onerepublic-counting-stars',
-     'https://soundcloud.com/h-m-h-m-d-4/blank-space-by-taylor-swift',
-     'https://soundcloud.com/avamax/salt',
-     'https://soundcloud.com/binz_zippo31/senorita-shawn-mendes-camila-cabello-binz-remake',
-     'https://soundcloud.com/interscope/imagine-dragons-demons-1',
-     'https://soundcloud.com/monoworld-0613/khoj-passing-by',
-     'https://soundcloud.com/kalyan-raman-1/cheppave-chirugali',
-     'https://soundcloud.com/anshulkarwa/dildara-raone',
-     'https://soundcloud.com/iamhamzakhan/o-saathi-atif-aslam',
-     'https://soundcloud.com/ali-butt-554799447/chand-sifarish-fanaa-hd-full-song',
-     'https://soundcloud.com/mohidammar/dheere-dheere-yo-yo-honey-singh',
-     'https://soundcloud.com/muhammad-danish-arbiani/chan-kitthan-song-ayushmann-khurrana-pranitha-subhash-rochak-kohli',
-     'https://soundcloud.com/tr-n-an-904465094/older-sasha-sloan-1',
-     'https://soundcloud.com/fanny-meill/rise-boyce-avenue',
-     'https://soundcloud.com/chiran-michael-131935404/takkar-nira-siddharth',
-     'https://soundcloud.com/hollywoodrecords/05-stone-cold',
-
-     'https://soundcloud.com/abdelwhab-hamdy/student-of-the-year-ishq-wala-love-video-alia-sidharth-varun',
-     'https://soundcloud.com/lynseni/beautiful-life-the-lonely-shining-goblin-ost-part-4-crush',
-     'https://soundcloud.com/nir-76573059/ed-sheeran-perfect-symphony-ft-andrea-bocelli',
-     'https://soundcloud.com/giannacosmo/stay-with-me-cover-by-madison-beer',
-     'https://soundcloud.com/arooj-fatima-64/sun-saathiya-abcd2',
-     'https://soundcloud.com/l2shareost32/isaac-hong-kiss-me-kiss-me-lovestruck-in-the-city-ost-part-8',
-     'https://soundcloud.com/l2shareost32/yurisangja-let-me-love-you-lovestruck-in-the-city-ost-part-4',
-     'https://soundcloud.com/ebong-owe/telusa-telusa-full-song-sarrainodusongs-allu-arjun-rakul-preet-ss-thaman',
-     'https://soundcloud.com/sohaib-hassan-8/tu-jo-mila-raabta-shirley-setia-jubin-nautiyal-tseries-mixtape',
-     'https://soundcloud.com/chase-mcbride/headlights-private-unreleased',
-     'https://soundcloud.com/dudewithpants/en-1',
-     'https://soundcloud.com/emberisland/umbrella',
-     'https://soundcloud.com/krishna-thentu-66664591/ninnila-sensongsmp3co',
-     'https://soundcloud.com/danny-delgado-music/imagine-dragons-thunder-danny-delgado-remix',
-     'https://soundcloud.com/mxo907/sia-angel-by-the-wings',
-     'https://soundcloud.com/ali-rehman-1/bekhayali-kabir-singh',
-     'https://soundcloud.com/anton-alfredsson-677557/1245-etham-nightcore',
-     'https://soundcloud.com/balaj-khan-899226495/sets/zarooorat',
-     'https://soundcloud.com/user-457111095/watch-me-the-phantoms',
-     'https://soundcloud.com/painted-daisy/sets/lovestruck-in-the-city-ost',
-     'https://soundcloud.com/natty-holy/bts-mic-drop-remix-steve-aoki',
-     'https://soundcloud.com/jksonxie/on-my-way-alan-walker',
-     'https://soundcloud.com/vinay-vadloori/aarambhame-le',
-     'https://soundcloud.com/bandaru1/ee-varsham',
-     'https://soundcloud.com/ahmad-muneeb/humdard-ek-villan-arijit-singh',
-     'https://soundcloud.com/muhammad-asad-25/tu-thodi-der-half-girlfriend',
-     'https://soundcloud.com/l2shareost11/lasse-lindh-hush-goblin-ost-part-3',
-     'https://soundcloud.com/lennonstella/like-everybody-else-vocal',
-     'https://soundcloud.com/anwin-george/malare-premam-official-song',
-     'https://soundcloud.com/clubmusic45/lyrical-masakali-delhi-6-abhishek-bachchan-sonam-kapoor-ar-rahman-mohit-chauhan',
-     'https://soundcloud.com/marshmellomusic/happier-ft-bastille',
-     'https://soundcloud.com/adityatanguturi/em-sandeham-ledu-oohalugusagusalade',
-     'https://soundcloud.com/tamilsong2/un-vizhigalil',
-
+      'https://soundcloud.com/m-1212/bekhayali-kabir-singh-full-version-arijit-singh',
+      'https://soundcloud.com/we-all-love-climax/06-aarambhame-le-anthem-of',
+      'https://soundcloud.com/abdelrhman-hafez-1/nadaan-parindey-ghar-aaja-full-song-rockstar-flv',
+      'https://soundcloud.com/arrahmanofficial/usure-pogudhey',
+      'https://soundcloud.com/sebastian-baar/the-rolling-stones-gimme-shelter',
+      'https://soundcloud.com/himadripatel/pani-da-rang',
+      'https://soundcloud.com/briellevonhugel/the-one-that-got-away',
+      'https://soundcloud.com/esthertran/so-cold-ben-cocks',
+      'https://soundcloud.com/sr-vinai/vellipomaakey-saahasam-swaasaga-saagipo',
+      'https://soundcloud.com/luminous-corner/you-broke-me-first-cover-conor',
+      'https://soundcloud.com/jaishil-bhavsar/subhanallah-full-song-with',
+      'https://soundcloud.com/ducktonbuii/snowman-sia-edited-audio',
+      'https://soundcloud.com/pvn-862671039/edo-jaruguthondi',
+      'https://soundcloud.com/abeiito/main-agar-kahoon-1',
+      'https://soundcloud.com/fbchennai/pudhu-vellai-mazhai-roja',
+      'https://soundcloud.com/ansonseabra/emerald-eyes-1',
+      'https://soundcloud.com/sr-vinai/main-rang-sharbaton-ka-phata-poster-nikla-hero-shahid-ileana-atif-aslam-chinmayi-sripaada',
+      'https://soundcloud.com/nazirtuhin/phir-se-ud-chala-when-chai-met-toast-music-mojo-season-3',
+      'https://soundcloud.com/whenchaimettoast/sets/joy-of-little-things',
+      'https://soundcloud.com/arbab-hassan-4/chota-sa-fasana',
+      'https://soundcloud.com/prakash_info/gira-gira-gira-dear-comrade',
+      'https://soundcloud.com/arainmujahid/patakha-guddi-highway-full',
+      'https://soundcloud.com/ritviz/ritviz-udd-gaye',
+      'https://soundcloud.com/monica-east/kabhi-kabhi-aditi-zindagi',
+      'https://soundcloud.com/bejoy-varghese/pavizha-mazhaye-athiran',
+      'https://soundcloud.com/h-m-h-m-d-4/blank-space-by-taylor-swift',
+      'https://soundcloud.com/avamax/salt',
+      'https://soundcloud.com/binz_zippo31/senorita-shawn-mendes-camila-cabello-binz-remake',
+      'https://soundcloud.com/interscope/imagine-dragons-demons-1',
+      'https://soundcloud.com/monoworld-0613/khoj-passing-by',
+      'https://soundcloud.com/kalyan-raman-1/cheppave-chirugali',
+      'https://soundcloud.com/anshulkarwa/dildara-raone',
+      'https://soundcloud.com/iamhamzakhan/o-saathi-atif-aslam',
+      'https://soundcloud.com/ali-butt-554799447/chand-sifarish-fanaa-hd-full-song',
+      'https://soundcloud.com/mohidammar/dheere-dheere-yo-yo-honey-singh',
+      'https://soundcloud.com/muhammad-danish-arbiani/chan-kitthan-song-ayushmann-khurrana-pranitha-subhash-rochak-kohli',
+      'https://soundcloud.com/tr-n-an-904465094/older-sasha-sloan-1',
+      'https://soundcloud.com/fanny-meill/rise-boyce-avenue',
+      'https://soundcloud.com/chiran-michael-131935404/takkar-nira-siddharth',
+      'https://soundcloud.com/hollywoodrecords/05-stone-cold',
+ 
+      'https://soundcloud.com/abdelwhab-hamdy/student-of-the-year-ishq-wala-love-video-alia-sidharth-varun',
+      'https://soundcloud.com/lynseni/beautiful-life-the-lonely-shining-goblin-ost-part-4-crush',
+      'https://soundcloud.com/nir-76573059/ed-sheeran-perfect-symphony-ft-andrea-bocelli',
+      'https://soundcloud.com/giannacosmo/stay-with-me-cover-by-madison-beer',
+      'https://soundcloud.com/arooj-fatima-64/sun-saathiya-abcd2',
+      'https://soundcloud.com/l2shareost32/isaac-hong-kiss-me-kiss-me-lovestruck-in-the-city-ost-part-8',
+      'https://soundcloud.com/l2shareost32/yurisangja-let-me-love-you-lovestruck-in-the-city-ost-part-4',
+      'https://soundcloud.com/ebong-owe/telusa-telusa-full-song-sarrainodusongs-allu-arjun-rakul-preet-ss-thaman',
+      'https://soundcloud.com/sohaib-hassan-8/tu-jo-mila-raabta-shirley-setia-jubin-nautiyal-tseries-mixtape',
+      'https://soundcloud.com/chase-mcbride/headlights-private-unreleased',
+      'https://soundcloud.com/dudewithpants/en-1',
+      'https://soundcloud.com/emberisland/umbrella',
+      'https://soundcloud.com/user-403614413/varsham-munduga',
+      'https://soundcloud.com/tuyensine/stay-with-me-chanyeol-exo-ft-punch-goblin-ost',
+      'https://soundcloud.com/bollywoodlove/bezubaan-phir-se-abcd-2',
+      'https://soundcloud.com/ali-rajpoot/zara-zara-behakta-hay-3',
+      'https://soundcloud.com/itzbonay/tum-hi-ho-arijit-singh',
+      'https://soundcloud.com/rahulnambiarofficial/arere-vaanaa',
+      'https://soundcloud.com/mychannel-666316229/ey-mausam-ki-barish',
+      'https://soundcloud.com/krishna-thentu-66664591/ninnila-sensongsmp3co',
+      'https://soundcloud.com/danny-delgado-music/imagine-dragons-thunder-danny-delgado-remix',
+      'https://soundcloud.com/mxo907/sia-angel-by-the-wings',
+      'https://soundcloud.com/ali-rehman-1/bekhayali-kabir-singh',
+      'https://soundcloud.com/anton-alfredsson-677557/1245-etham-nightcore',
+      'https://soundcloud.com/balaj-khan-899226495/sets/zarooorat',
+      'https://soundcloud.com/user-457111095/watch-me-the-phantoms',
+      'https://soundcloud.com/painted-daisy/sets/lovestruck-in-the-city-ost',
+      'https://soundcloud.com/natty-holy/bts-mic-drop-remix-steve-aoki',
+      'https://soundcloud.com/jksonxie/on-my-way-alan-walker',
+      'https://soundcloud.com/vinay-vadloori/aarambhame-le',
+      'https://soundcloud.com/bandaru1/ee-varsham',
+      'https://soundcloud.com/ahmad-muneeb/humdard-ek-villan-arijit-singh',
+      'https://soundcloud.com/muhammad-asad-25/tu-thodi-der-half-girlfriend',
+      'https://soundcloud.com/l2shareost11/lasse-lindh-hush-goblin-ost-part-3',
+      'https://soundcloud.com/lennonstella/like-everybody-else-vocal',
+      'https://soundcloud.com/anwin-george/malare-premam-official-song',
+      'https://soundcloud.com/clubmusic45/lyrical-masakali-delhi-6-abhishek-bachchan-sonam-kapoor-ar-rahman-mohit-chauhan',
+      'https://soundcloud.com/marshmellomusic/happier-ft-bastille',
+      'https://soundcloud.com/adityatanguturi/em-sandeham-ledu-oohalugusagusalade',
+      'https://soundcloud.com/tamilsong2/un-vizhigalil',
     ] ,
     pip: false,
     playing: false,
@@ -899,7 +904,7 @@ class Weather extends React.Component {
                   onError={e => console.log('onError', e)}
                   onProgress={this.handleProgress}
                   onDuration={this.handleDuration}/>
-                  <b>Main Agar Kahoon </b><br></br>Main Agar Kahoon</Col>
+                  <b>Main Agar Kahoon </b><br></br>Shreya Ghoshal, Sonu Nigam</Col>
                   <Col> <ReactPlayer
                   ref={this.ref}
                   className='react-player'
@@ -1072,1146 +1077,1142 @@ class Weather extends React.Component {
                           ) : ('')
                   }
                   {
-(((this.state.temperature - 32)*5/9) >= 10 && ((this.state.temperature - 32)*5/9)<20  && (this.state.description =="Clear"))  ? (
-    <Container fluid="fluid">
-    <Row>
-<Col> <ReactPlayer
-ref={this.ref}
-className='react-player'
-width='200px'
-height='200px'
-url={url[200]}
-pip={pip}
-playing={playing}
-controls={controls}
-light={true}
-loop={loop}
-playbackRate={playbackRate}
-volume={volume}
-muted={muted}
-onReady={() => console.log('onReady')}
-onStart={() => console.log('onStart')}
-/*onPlay={this.handlePlay}*/
-onEnablePIP={this.handleEnablePIP}
-onDisablePIP={this.handleDisablePIP}
-onPause={this.handlePause}
-onBuffer={() => console.log('onBuffer')}
-onSeek={e => console.log('onSeek', e)}
-onEnded={this.handleEnded}
-onError={e => console.log('onError', e)}
-onProgress={this.handleProgress}
-onDuration={this.handleDuration}/>
-<b>Gira Gira Gira </b><br></br>Nakul Abhyankar,
-Mohana Bhogaraju </Col>
-<Col><ReactPlayer
-ref={this.ref}
-className='react-player'
-width='200px'
-height='200px'
-url={url[201]}
-pip={pip}
-playing={playing}
-controls={controls}
-light={true}
-loop={loop}
-playbackRate={playbackRate}
-volume={volume}
-muted={muted}
-onReady={() => console.log('onReady')}
-onStart={() => console.log('onStart')}
-/*onPlay={this.handlePlay}*/
-onEnablePIP={this.handleEnablePIP}
-onDisablePIP={this.handleDisablePIP}
-onPause={this.handlePause}
-onBuffer={() => console.log('onBuffer')}
-onSeek={e => console.log('onSeek', e)}
-onEnded={this.handleEnded}
-onError={e => console.log('onError', e)}
-onProgress={this.handleProgress}
-onDuration={this.handleDuration}/>
-<b>Patakha Guddi  </b><br></br>Sultana,
-Jyoti Nooran
-</Col>
-<Col> <ReactPlayer
-ref={this.ref}
-className='react-player'
-width='200px'
-height='200px'
-url={url[202]}
-pip={pip}
-playing={playing}
-controls={controls}
-light={true}
-loop={loop}
-playbackRate={playbackRate}
-volume={volume}
-muted={muted}
-onReady={() => console.log('onReady')}
-onStart={() => console.log('onStart')}
-/*onPlay={this.handlePlay}*/
-onEnablePIP={this.handleEnablePIP}
-onDisablePIP={this.handleDisablePIP}
-onPause={this.handlePause}
-onBuffer={() => console.log('onBuffer')}
-onSeek={e => console.log('onSeek', e)}
-onEnded={this.handleEnded}
-onError={e => console.log('onError', e)}
-onProgress={this.handleProgress}
-onDuration={this.handleDuration}/>
-<b>Udd Gaye</b><br></br>Ritviz</Col>
-<Col> <ReactPlayer
-ref={this.ref}
-className='react-player'
-width='200px'
-height='200px'
-url={url[203]}
-pip={pip}
-playing={playing}
-controls={controls}
-light={true}
-loop={loop}
-playbackRate={playbackRate}
-volume={volume}
-muted={muted}
-onReady={() => console.log('onReady')}
-onStart={() => console.log('onStart')}
-/*onPlay={this.handlePlay}*/
-onEnablePIP={this.handleEnablePIP}
-onDisablePIP={this.handleDisablePIP}
-onPause={this.handlePause}
-onBuffer={() => console.log('onBuffer')}
-onSeek={e => console.log('onSeek', e)}
-onEnded={this.handleEnded}
-onError={e => console.log('onError', e)}
-onProgress={this.handleProgress}
-onDuration={this.handleDuration}/>
-<b>Kabhi Kabhi Aditi
-Zindagi
- </b><br></br>Rashid Ali </Col>
-<Col> <ReactPlayer
-ref={this.ref}
-className='react-player'
-width='200px'
-height='200px'
-url={url[204]}
-pip={pip}
-playing={playing}
-controls={controls}
-light={true}
-loop={loop}
-playbackRate={playbackRate}
-volume={volume}
-muted={muted}
-onReady={() => console.log('onReady')}
-onStart={() => console.log('onStart')}
-/*onPlay={this.handlePlay}*/
-onEnablePIP={this.handleEnablePIP}
-onDisablePIP={this.handleDisablePIP}
-onPause={this.handlePause}
-onBuffer={() => console.log('onBuffer')}
-onSeek={e => console.log('onSeek', e)}
-onEnded={this.handleEnded}
-onError={e => console.log('onError', e)}
-onProgress={this.handleProgress}
-onDuration={this.handleDuration}/>
-<b>Pavizha Mazha </b><br></br>KS Harisankar</Col>
-</Row>
-<div><br></br></div>
-<Row>
-<Col> <ReactPlayer
-ref={this.ref}
-className='react-player'
-width='200px'
-height='200px'
-url={url[205]}
-pip={pip}
-playing={playing}
-controls={controls}
-light={true}
-loop={loop}
-playbackRate={playbackRate}
-volume={volume}
-muted={muted}
-onReady={() => console.log('onReady')}
-onStart={() => console.log('onStart')}
-/*onPlay={this.handlePlay}*/
-onEnablePIP={this.handleEnablePIP}
-onDisablePIP={this.handleDisablePIP}
-onPause={this.handlePause}
-onBuffer={() => console.log('onBuffer')}
-onSeek={e => console.log('onSeek', e)}
-onEnded={this.handleEnded}
-onError={e => console.log('onError', e)}
-onProgress={this.handleProgress}
-onDuration={this.handleDuration}/>
-<b>Blank Space </b><br></br>Taylor swift</Col>
-<Col> <ReactPlayer
-ref={this.ref}
-className='react-player'
-width='200px'
-height='200px'
-url={url[206]}
-pip={pip}
-playing={playing}
-controls={controls}
-light={true}
-loop={loop}
-playbackRate={playbackRate}
-volume={volume}
-muted={muted}
-onReady={() => console.log('onReady')}
-onStart={() => console.log('onStart')}
-/*onPlay={this.handlePlay}*/
-onEnablePIP={this.handleEnablePIP}
-onDisablePIP={this.handleDisablePIP}
-onPause={this.handlePause}
-onBuffer={() => console.log('onBuffer')}
-onSeek={e => console.log('onSeek', e)}
-onEnded={this.handleEnded}
-onError={e => console.log('onError', e)}
-onProgress={this.handleProgress}
-onDuration={this.handleDuration}/>
-<b>Salt</b><br></br>Ava Max</Col>
-<Col> <ReactPlayer
-ref={this.ref}
-className='react-player'
-width='200px'
-height='200px'
-url={url[207]}
-pip={pip}
-playing={playing}
-controls={controls}
-light={true}
-loop={loop}
-playbackRate={playbackRate}
-volume={volume}
-muted={muted}
-onReady={() => console.log('onReady')}
-onStart={() => console.log('onStart')}
-/*onPlay={this.handlePlay}*/
-onEnablePIP={this.handleEnablePIP}
-onDisablePIP={this.handleDisablePIP}
-onPause={this.handlePause}
-onBuffer={() => console.log('onBuffer')}
-onSeek={e => console.log('onSeek', e)}
-onEnded={this.handleEnded}
-onError={e => console.log('onError', e)}
-onProgress={this.handleProgress}
-onDuration={this.handleDuration}/>
-<b>Senorita Remix</b><br></br>VLT</Col>
-<Col> <ReactPlayer
-ref={this.ref}
-className='react-player'
-width='200px'
-height='200px'
-url={url[208]}
-pip={pip}
-playing={playing}
-controls={controls}
-light={true}
-loop={loop}
-playbackRate={playbackRate}
-volume={volume}
-muted={muted}
-onReady={() => console.log('onReady')}
-onStart={() => console.log('onStart')}
-/*onPlay={this.handlePlay}*/
-onEnablePIP={this.handleEnablePIP}
-onDisablePIP={this.handleDisablePIP}
-onPause={this.handlePause}
-onBuffer={() => console.log('onBuffer')}
-onSeek={e => console.log('onSeek', e)}
-onEnded={this.handleEnded}
-onError={e => console.log('onError', e)}
-onProgress={this.handleProgress}
-onDuration={this.handleDuration}/>
-<b>Demons</b><br></br>Imagine
-Dragons</Col>
-<Col> <ReactPlayer
-ref={this.ref}
-className='react-player'
-width='200px'
-height='200px'
-url={url[209]}
-pip={pip}
-playing={playing}
-controls={controls}
-light={true}
-loop={loop}
-playbackRate={playbackRate}
-volume={volume}
-muted={muted}
-onReady={() => console.log('onReady')}
-onStart={() => console.log('onStart')}
-/*onPlay={this.handlePlay}*/
-onEnablePIP={this.handleEnablePIP}
-onDisablePIP={this.handleDisablePIP}
-onPause={this.handlePause}
-onBuffer={() => console.log('onBuffer')}
-onSeek={e => console.log('onSeek', e)}
-onEnded={this.handleEnded}
-onError={e => console.log('onError', e)}
-onProgress={this.handleProgress}
-onDuration={this.handleDuration}/>
-<b>Khoj</b><br></br>When Chai met
-Toast</Col>
-</Row>
-    </Container>
-        ) : ('')
-    }
-    {
-    (((this.state.temperature - 32)*5/9) >= 10 && ((this.state.temperature - 32)*5/9)<20  && (this.state.description =="Clouds"))  ? (
-        <Container fluid="fluid">
-        <Row>
-    <Col> <ReactPlayer
-    ref={this.ref}
-    className='react-player'
-    width='200px'
-    height='200px'
-    url={url[210]}
-    pip={pip}
-    playing={playing}
-    controls={controls}
-    light={true}
-    loop={loop}
-    playbackRate={playbackRate}
-    volume={volume}
-    muted={muted}
-    onReady={() => console.log('onReady')}
-    onStart={() => console.log('onStart')}
-    /*onPlay={this.handlePlay}*/
-    onEnablePIP={this.handleEnablePIP}
-    onDisablePIP={this.handleDisablePIP}
-    onPause={this.handlePause}
-    onBuffer={() => console.log('onBuffer')}
-    onSeek={e => console.log('onSeek', e)}
-    onEnded={this.handleEnded}
-    onError={e => console.log('onError', e)}
-    onProgress={this.handleProgress}
-    onDuration={this.handleDuration}/>
-    <b>Cheppave Chirugali </b><br></br>Udit Narayan</Col>
-    <Col><ReactPlayer
-    ref={this.ref}
-    className='react-player'
-    width='200px'
-    height='200px'
-    url={url[211]}
-    pip={pip}
-    playing={playing}
-    controls={controls}
-    light={true}
-    loop={loop}
-    playbackRate={playbackRate}
-    volume={volume}
-    muted={muted}
-    onReady={() => console.log('onReady')}
-    onStart={() => console.log('onStart')}
-    /*onPlay={this.handlePlay}*/
-    onEnablePIP={this.handleEnablePIP}
-    onDisablePIP={this.handleDisablePIP}
-    onPause={this.handlePause}
-    onBuffer={() => console.log('onBuffer')}
-    onSeek={e => console.log('onSeek', e)}
-    onEnded={this.handleEnded}
-    onError={e => console.log('onError', e)}
-    onProgress={this.handleProgress}
-    onDuration={this.handleDuration}/>
-    <b>Dildara </b><br></br>Shafqat Amanat Ali</Col>
-    <Col> <ReactPlayer
-    ref={this.ref}
-    className='react-player'
-    width='200px'
-    height='200px'
-    url={url[212]}
-    pip={pip}
-    playing={playing}
-    controls={controls}
-    light={true}
-    loop={loop}
-    playbackRate={playbackRate}
-    volume={volume}
-    muted={muted}
-    onReady={() => console.log('onReady')}
-    onStart={() => console.log('onStart')}
-    /*onPlay={this.handlePlay}*/
-    onEnablePIP={this.handleEnablePIP}
-    onDisablePIP={this.handleDisablePIP}
-    onPause={this.handlePause}
-    onBuffer={() => console.log('onBuffer')}
-    onSeek={e => console.log('onSeek', e)}
-    onEnded={this.handleEnded}
-    onError={e => console.log('onError', e)}
-    onProgress={this.handleProgress}
-    onDuration={this.handleDuration}/>
-    <b>O Saathi</b><br></br>Atif Aslam</Col>
-    <Col> <ReactPlayer
-    ref={this.ref}
-    className='react-player'
-    width='200px'
-    height='200px'
-    url={url[213]}
-    pip={pip}
-    playing={playing}
-    controls={controls}
-    light={true}
-    loop={loop}
-    playbackRate={playbackRate}
-    volume={volume}
-    muted={muted}
-    onReady={() => console.log('onReady')}
-    onStart={() => console.log('onStart')}
-    /*onPlay={this.handlePlay}*/
-    onEnablePIP={this.handleEnablePIP}
-    onDisablePIP={this.handleDisablePIP}
-    onPause={this.handlePause}
-    onBuffer={() => console.log('onBuffer')}
-    onSeek={e => console.log('onSeek', e)}
-    onEnded={this.handleEnded}
-    onError={e => console.log('onError', e)}
-    onProgress={this.handleProgress}
-    onDuration={this.handleDuration}/>
-    <b>Chand Sifarish</b><br></br>Kailash Kher,
-Shaan </Col>
-    <Col> <ReactPlayer
-    ref={this.ref}
-    className='react-player'
-    width='200px'
-    height='200px'
-    url={url[214]}
-    pip={pip}
-    playing={playing}
-    controls={controls}
-    light={true}
-    loop={loop}
-    playbackRate={playbackRate}
-    volume={volume}
-    muted={muted}
-    onReady={() => console.log('onReady')}
-    onStart={() => console.log('onStart')}
-    /*onPlay={this.handlePlay}*/
-    onEnablePIP={this.handleEnablePIP}
-    onDisablePIP={this.handleDisablePIP}
-    onPause={this.handlePause}
-    onBuffer={() => console.log('onBuffer')}
-    onSeek={e => console.log('onSeek', e)}
-    onEnded={this.handleEnded}
-    onError={e => console.log('onError', e)}
-    onProgress={this.handleProgress}
-    onDuration={this.handleDuration}/>
-    <b>Dheere Dheere</b><br></br>Yo Yo Honey Singh</Col>
-    </Row>
-    <div><br></br></div>
-    <Row>
-    <Col> <ReactPlayer
-    ref={this.ref}
-    className='react-player'
-    width='200px'
-    height='200px'
-    url={url[215]}
-    pip={pip}
-    playing={playing}
-    controls={controls}
-    light={true}
-    loop={loop}
-    playbackRate={playbackRate}
-    volume={volume}
-    muted={muted}
-    onReady={() => console.log('onReady')}
-    onStart={() => console.log('onStart')}
-    /*onPlay={this.handlePlay}*/
-    onEnablePIP={this.handleEnablePIP}
-    onDisablePIP={this.handleDisablePIP}
-    onPause={this.handlePause}
-    onBuffer={() => console.log('onBuffer')}
-    onSeek={e => console.log('onSeek', e)}
-    onEnded={this.handleEnded}
-    onError={e => console.log('onError', e)}
-    onProgress={this.handleProgress}
-    onDuration={this.handleDuration}/>
-    <b>Chan Kitthan </b><br></br>Ayushman Khurana</Col>
-    <Col> <ReactPlayer
-    ref={this.ref}
-    className='react-player'
-    width='200px'
-    height='200px'
-    url={url[216]}
-    pip={pip}
-    playing={playing}
-    controls={controls}
-    light={true}
-    loop={loop}
-    playbackRate={playbackRate}
-    volume={volume}
-    muted={muted}
-    onReady={() => console.log('onReady')}
-    onStart={() => console.log('onStart')}
-    /*onPlay={this.handlePlay}*/
-    onEnablePIP={this.handleEnablePIP}
-    onDisablePIP={this.handleDisablePIP}
-    onPause={this.handlePause}
-    onBuffer={() => console.log('onBuffer')}
-    onSeek={e => console.log('onSeek', e)}
-    onEnded={this.handleEnded}
-    onError={e => console.log('onError', e)}
-    onProgress={this.handleProgress}
-    onDuration={this.handleDuration}/>
-    <b>Older</b><br></br>Sasha Sloan</Col>
-    <Col> <ReactPlayer
-    ref={this.ref}
-    className='react-player'
-    width='200px'
-    height='200px'
-    url={url[217]}
-    pip={pip}
-    playing={playing}
-    controls={controls}
-    light={true}
-    loop={loop}
-    playbackRate={playbackRate}
-    volume={volume}
-    muted={muted}
-    onReady={() => console.log('onReady')}
-    onStart={() => console.log('onStart')}
-    /*onPlay={this.handlePlay}*/
-    onEnablePIP={this.handleEnablePIP}
-    onDisablePIP={this.handleDisablePIP}
-    onPause={this.handlePause}
-    onBuffer={() => console.log('onBuffer')}
-    onSeek={e => console.log('onSeek', e)}
-    onEnded={this.handleEnded}
-    onError={e => console.log('onError', e)}
-    onProgress={this.handleProgress}
-    onDuration={this.handleDuration}/>
-    <b>Rise Cover</b><br></br> Boyce Avenue</Col>
-    <Col> <ReactPlayer
-    ref={this.ref}
-    className='react-player'
-    width='200px'
-    height='200px'
-    url={url[218]}
-    pip={pip}
-    playing={playing}
-    controls={controls}
-    light={true}
-    loop={loop}
-    playbackRate={playbackRate}
-    volume={volume}
-    muted={muted}
-    onReady={() => console.log('onReady')}
-    onStart={() => console.log('onStart')}
-    /*onPlay={this.handlePlay}*/
-    onEnablePIP={this.handleEnablePIP}
-    onDisablePIP={this.handleDisablePIP}
-    onPause={this.handlePause}
-    onBuffer={() => console.log('onBuffer')}
-    onSeek={e => console.log('onSeek', e)}
-    onEnded={this.handleEnded}
-    onError={e => console.log('onError', e)}
-    onProgress={this.handleProgress}
-    onDuration={this.handleDuration}/>
-    <b>Nira</b><br></br>Malvi Sundaresan, Sid Sriram, Nivas K. Prasanna, Gautham Menon</Col>
-    <Col> <ReactPlayer
-    ref={this.ref}
-    className='react-player'
-    width='200px'
-    height='200px'
-    url={url[219]}
-    pip={pip}
-    playing={playing}
-    controls={controls}
-    light={true}
-    loop={loop}
-    playbackRate={playbackRate}
-    volume={volume}
-    muted={muted}
-    onReady={() => console.log('onReady')}
-    onStart={() => console.log('onStart')}
-    /*onPlay={this.handlePlay}*/
-    onEnablePIP={this.handleEnablePIP}
-    onDisablePIP={this.handleDisablePIP}
-    onPause={this.handlePause}
-    onBuffer={() => console.log('onBuffer')}
-    onSeek={e => console.log('onSeek', e)}
-    onEnded={this.handleEnded}
-    onError={e => console.log('onError', e)}
-    onProgress={this.handleProgress}
-    onDuration={this.handleDuration}/>
-    <b>Stone Cold</b><br></br>Demi Lovato</Col>
-    </Row>
-        </Container>
-            ) : ('')
-        }
+          (((this.state.temperature - 32)*5/9) >= 10 && ((this.state.temperature - 32)*5/9)<20  && (this.state.description =="Clear"))  ? (
+              <Container fluid="fluid">
+              <Row>
+          <Col> <ReactPlayer
+          ref={this.ref}
+          className='react-player'
+          width='200px'
+          height='200px'
+          url={url[200]}
+          pip={pip}
+          playing={playing}
+          controls={controls}
+          light={true}
+          loop={loop}
+          playbackRate={playbackRate}
+          volume={volume}
+          muted={muted}
+          onReady={() => console.log('onReady')}
+          onStart={() => console.log('onStart')}
+          /*onPlay={this.handlePlay}*/
+          onEnablePIP={this.handleEnablePIP}
+          onDisablePIP={this.handleDisablePIP}
+          onPause={this.handlePause}
+          onBuffer={() => console.log('onBuffer')}
+          onSeek={e => console.log('onSeek', e)}
+          onEnded={this.handleEnded}
+          onError={e => console.log('onError', e)}
+          onProgress={this.handleProgress}
+          onDuration={this.handleDuration}/>
+          <b>Gira Gira Gira </b><br></br>Nakul Abhyankar,
+          Mohana Bhogaraju </Col>
+          <Col><ReactPlayer
+          ref={this.ref}
+          className='react-player'
+          width='200px'
+          height='200px'
+          url={url[201]}
+          pip={pip}
+          playing={playing}
+          controls={controls}
+          light={true}
+          loop={loop}
+          playbackRate={playbackRate}
+          volume={volume}
+          muted={muted}
+          onReady={() => console.log('onReady')}
+          onStart={() => console.log('onStart')}
+          /*onPlay={this.handlePlay}*/
+          onEnablePIP={this.handleEnablePIP}
+          onDisablePIP={this.handleDisablePIP}
+          onPause={this.handlePause}
+          onBuffer={() => console.log('onBuffer')}
+          onSeek={e => console.log('onSeek', e)}
+          onEnded={this.handleEnded}
+          onError={e => console.log('onError', e)}
+          onProgress={this.handleProgress}
+          onDuration={this.handleDuration}/>
+          <b>Patakha Guddi  </b><br></br>Sultana,
+          Jyoti Nooran
+          </Col>
+          <Col> <ReactPlayer
+          ref={this.ref}
+          className='react-player'
+          width='200px'
+          height='200px'
+          url={url[202]}
+          pip={pip}
+          playing={playing}
+          controls={controls}
+          light={true}
+          loop={loop}
+          playbackRate={playbackRate}
+          volume={volume}
+          muted={muted}
+          onReady={() => console.log('onReady')}
+          onStart={() => console.log('onStart')}
+          /*onPlay={this.handlePlay}*/
+          onEnablePIP={this.handleEnablePIP}
+          onDisablePIP={this.handleDisablePIP}
+          onPause={this.handlePause}
+          onBuffer={() => console.log('onBuffer')}
+          onSeek={e => console.log('onSeek', e)}
+          onEnded={this.handleEnded}
+          onError={e => console.log('onError', e)}
+          onProgress={this.handleProgress}
+          onDuration={this.handleDuration}/>
+          <b>Udd Gaye</b><br></br>Ritviz</Col>
+          <Col> <ReactPlayer
+          ref={this.ref}
+          className='react-player'
+          width='200px'
+          height='200px'
+          url={url[203]}
+          pip={pip}
+          playing={playing}
+          controls={controls}
+          light={true}
+          loop={loop}
+          playbackRate={playbackRate}
+          volume={volume}
+          muted={muted}
+          onReady={() => console.log('onReady')}
+          onStart={() => console.log('onStart')}
+          /*onPlay={this.handlePlay}*/
+          onEnablePIP={this.handleEnablePIP}
+          onDisablePIP={this.handleDisablePIP}
+          onPause={this.handlePause}
+          onBuffer={() => console.log('onBuffer')}
+          onSeek={e => console.log('onSeek', e)}
+          onEnded={this.handleEnded}
+          onError={e => console.log('onError', e)}
+          onProgress={this.handleProgress}
+          onDuration={this.handleDuration}/>
+          <b>Kabhi Kabhi Aditi
+          Zindagi
+          </b><br></br>Rashid Ali </Col>
+          <Col> <ReactPlayer
+          ref={this.ref}
+          className='react-player'
+          width='200px'
+          height='200px'
+          url={url[204]}
+          pip={pip}
+          playing={playing}
+          controls={controls}
+          light={true}
+          loop={loop}
+          playbackRate={playbackRate}
+          volume={volume}
+          muted={muted}
+          onReady={() => console.log('onReady')}
+          onStart={() => console.log('onStart')}
+          /*onPlay={this.handlePlay}*/
+          onEnablePIP={this.handleEnablePIP}
+          onDisablePIP={this.handleDisablePIP}
+          onPause={this.handlePause}
+          onBuffer={() => console.log('onBuffer')}
+          onSeek={e => console.log('onSeek', e)}
+          onEnded={this.handleEnded}
+          onError={e => console.log('onError', e)}
+          onProgress={this.handleProgress}
+          onDuration={this.handleDuration}/>
+          <b>Pavizha Mazha </b><br></br>KS Harisankar</Col>
+          </Row>
+          <div><br></br></div>
+          <Row>
+          <Col> <ReactPlayer
+          ref={this.ref}
+          className='react-player'
+          width='200px'
+          height='200px'
+          url={url[205]}
+          pip={pip}
+          playing={playing}
+          controls={controls}
+          light={true}
+          loop={loop}
+          playbackRate={playbackRate}
+          volume={volume}
+          muted={muted}
+          onReady={() => console.log('onReady')}
+          onStart={() => console.log('onStart')}
+          /*onPlay={this.handlePlay}*/
+          onEnablePIP={this.handleEnablePIP}
+          onDisablePIP={this.handleDisablePIP}
+          onPause={this.handlePause}
+          onBuffer={() => console.log('onBuffer')}
+          onSeek={e => console.log('onSeek', e)}
+          onEnded={this.handleEnded}
+          onError={e => console.log('onError', e)}
+          onProgress={this.handleProgress}
+          onDuration={this.handleDuration}/>
+          <b>Blank Space </b><br></br>Taylor swift</Col>
+          <Col> <ReactPlayer
+          ref={this.ref}
+          className='react-player'
+          width='200px'
+          height='200px'
+          url={url[206]}
+          pip={pip}
+          playing={playing}
+          controls={controls}
+          light={true}
+          loop={loop}
+          playbackRate={playbackRate}
+          volume={volume}
+          muted={muted}
+          onReady={() => console.log('onReady')}
+          onStart={() => console.log('onStart')}
+          /*onPlay={this.handlePlay}*/
+          onEnablePIP={this.handleEnablePIP}
+          onDisablePIP={this.handleDisablePIP}
+          onPause={this.handlePause}
+          onBuffer={() => console.log('onBuffer')}
+          onSeek={e => console.log('onSeek', e)}
+          onEnded={this.handleEnded}
+          onError={e => console.log('onError', e)}
+          onProgress={this.handleProgress}
+          onDuration={this.handleDuration}/>
+          <b>Salt</b><br></br>Ava Max</Col>
+          <Col> <ReactPlayer
+          ref={this.ref}
+          className='react-player'
+          width='200px'
+          height='200px'
+          url={url[207]}
+          pip={pip}
+          playing={playing}
+          controls={controls}
+          light={true}
+          loop={loop}
+          playbackRate={playbackRate}
+          volume={volume}
+          muted={muted}
+          onReady={() => console.log('onReady')}
+          onStart={() => console.log('onStart')}
+          /*onPlay={this.handlePlay}*/
+          onEnablePIP={this.handleEnablePIP}
+          onDisablePIP={this.handleDisablePIP}
+          onPause={this.handlePause}
+          onBuffer={() => console.log('onBuffer')}
+          onSeek={e => console.log('onSeek', e)}
+          onEnded={this.handleEnded}
+          onError={e => console.log('onError', e)}
+          onProgress={this.handleProgress}
+          onDuration={this.handleDuration}/>
+          <b>Senorita Remix</b><br></br>VLT</Col>
+          <Col> <ReactPlayer
+          ref={this.ref}
+          className='react-player'
+          width='200px'
+          height='200px'
+          url={url[208]}
+          pip={pip}
+          playing={playing}
+          controls={controls}
+          light={true}
+          loop={loop}
+          playbackRate={playbackRate}
+          volume={volume}
+          muted={muted}
+          onReady={() => console.log('onReady')}
+          onStart={() => console.log('onStart')}
+          /*onPlay={this.handlePlay}*/
+          onEnablePIP={this.handleEnablePIP}
+          onDisablePIP={this.handleDisablePIP}
+          onPause={this.handlePause}
+          onBuffer={() => console.log('onBuffer')}
+          onSeek={e => console.log('onSeek', e)}
+          onEnded={this.handleEnded}
+          onError={e => console.log('onError', e)}
+          onProgress={this.handleProgress}
+          onDuration={this.handleDuration}/>
+          <b>Demons</b><br></br>Imagine
+          Dragons</Col>
+          <Col> <ReactPlayer
+          ref={this.ref}
+          className='react-player'
+          width='200px'
+          height='200px'
+          url={url[209]}
+          pip={pip}
+          playing={playing}
+          controls={controls}
+          light={true}
+          loop={loop}
+          playbackRate={playbackRate}
+          volume={volume}
+          muted={muted}
+          onReady={() => console.log('onReady')}
+          onStart={() => console.log('onStart')}
+          /*onPlay={this.handlePlay}*/
+          onEnablePIP={this.handleEnablePIP}
+          onDisablePIP={this.handleDisablePIP}
+          onPause={this.handlePause}
+          onBuffer={() => console.log('onBuffer')}
+          onSeek={e => console.log('onSeek', e)}
+          onEnded={this.handleEnded}
+          onError={e => console.log('onError', e)}
+          onProgress={this.handleProgress}
+          onDuration={this.handleDuration}/>
+          <b>Khoj</b><br></br>When Chai met
+          Toast</Col>
+          </Row>
+              </Container>
+                  ) : ('')
+              }
+              {
+              (((this.state.temperature - 32)*5/9) >= 10 && ((this.state.temperature - 32)*5/9)<20  && (this.state.description =="Clouds"))  ? (
+                  <Container fluid="fluid">
+                  <Row>
+              <Col> <ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='200px'
+              height='200px'
+              url={url[210]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={true}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration}/>
+              <b>Cheppave Chirugali </b><br></br>Udit Narayan</Col>
+              <Col><ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='200px'
+              height='200px'
+              url={url[211]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={true}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration}/>
+              <b>Dildara </b><br></br>Shafqat Amanat Ali</Col>
+              <Col> <ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='200px'
+              height='200px'
+              url={url[212]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={true}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration}/>
+              <b>O Saathi</b><br></br>Atif Aslam</Col>
+              <Col> <ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='200px'
+              height='200px'
+              url={url[213]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={true}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration}/>
+              <b>Chand Sifarish</b><br></br>Kailash Kher, Shaan </Col>
+              <Col> <ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='200px'
+              height='200px'
+              url={url[214]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={true}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration}/>
+              <b>Dheere Dheere</b><br></br>Yo Yo Honey Singh</Col>
+              </Row>
+              <div><br></br></div>
+              <Row>
+              <Col> <ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='200px'
+              height='200px'
+              url={url[215]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={true}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration}/>
+              <b>Chan Kitthan </b><br></br>Ayushman Khurana</Col>
+              <Col> <ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='200px'
+              height='200px'
+              url={url[216]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={true}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration}/>
+              <b>Older</b><br></br>Sasha Sloan</Col>
+              <Col> <ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='200px'
+              height='200px'
+              url={url[217]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={true}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration}/>
+              <b>Rise Cover</b><br></br> Boyce Avenue</Col>
+              <Col> <ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='200px'
+              height='200px'
+              url={url[218]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={true}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration}/>
+              <b>Nira</b><br></br>Malvi Sundaresan, Sid Sriram, Nivas K. Prasanna, Gautham Menon</Col>
+              <Col> <ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='200px'
+              height='200px'
+              url={url[219]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={true}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration}/>
+              <b>Stone Cold</b><br></br>Demi Lovato</Col>
+              </Row>
+                  </Container>
+                      ) : ('')
+                  }
                   
-    {
-        (((this.state.temperature - 32)*5/9) >= 20 && ((this.state.temperature - 32)*5/9)<25  && (this.state.description =="Snow"))  ? (
-            <Container fluid="fluid">
-            <Row>
-        <Col> <ReactPlayer
-        ref={this.ref}
-        className='react-player'
-        width='200px'
-        height='200px'
-        url={url[220]}
-        pip={pip}
-        playing={playing}
-        controls={controls}
-        light={true}
-        loop={loop}
-        playbackRate={playbackRate}
-        volume={volume}
-        muted={muted}
-        onReady={() => console.log('onReady')}
-        onStart={() => console.log('onStart')}
-        /*onPlay={this.handlePlay}*/
-        onEnablePIP={this.handleEnablePIP}
-        onDisablePIP={this.handleDisablePIP}
-        onPause={this.handlePause}
-        onBuffer={() => console.log('onBuffer')}
-        onSeek={e => console.log('onSeek', e)}
-        onEnded={this.handleEnded}
-        onError={e => console.log('onError', e)}
-        onProgress={this.handleProgress}
-        onDuration={this.handleDuration}/>
-        <b>Ishq wala love </b><br></br>Neeti Mohan, Shekhar Ravjiani, Salim Merchant</Col>
-        <Col><ReactPlayer
-        ref={this.ref}
-        className='react-player'
-        width='200px'
-        height='200px'
-        url={url[221]}
-        pip={pip}
-        playing={playing}
-        controls={controls}
-        light={true}
-        loop={loop}
-        playbackRate={playbackRate}
-        volume={volume}
-        muted={muted}
-        onReady={() => console.log('onReady')}
-        onStart={() => console.log('onStart')}
-        /*onPlay={this.handlePlay}*/
-        onEnablePIP={this.handleEnablePIP}
-        onDisablePIP={this.handleDisablePIP}
-        onPause={this.handlePause}
-        onBuffer={() => console.log('onBuffer')}
-        onSeek={e => console.log('onSeek', e)}
-        onEnded={this.handleEnded}
-        onError={e => console.log('onError', e)}
-        onProgress={this.handleProgress}
-        onDuration={this.handleDuration}/>
-        <b>Beautiful </b><br></br>Jungkook</Col>
-        <Col> <ReactPlayer
-        ref={this.ref}
-        className='react-player'
-        width='200px'
-        height='200px'
-        url={url[222]}
-        pip={pip}
-        playing={playing}
-        controls={controls}
-        light={true}
-        loop={loop}
-        playbackRate={playbackRate}
-        volume={volume}
-        muted={muted}
-        onReady={() => console.log('onReady')}
-        onStart={() => console.log('onStart')}
-        /*onPlay={this.handlePlay}*/
-        onEnablePIP={this.handleEnablePIP}
-        onDisablePIP={this.handleDisablePIP}
-        onPause={this.handlePause}
-        onBuffer={() => console.log('onBuffer')}
-        onSeek={e => console.log('onSeek', e)}
-        onEnded={this.handleEnded}
-        onError={e => console.log('onError', e)}
-        onProgress={this.handleProgress}
-        onDuration={this.handleDuration}/>
-        <b>Perfect</b><br></br>Ed Sheeran</Col>
-        <Col> <ReactPlayer
-        ref={this.ref}
-        className='react-player'
-        width='200px'
-        height='200px'
-        url={url[223]}
-        pip={pip}
-        playing={playing}
-        controls={controls}
-        light={true}
-        loop={loop}
-        playbackRate={playbackRate}
-        volume={volume}
-        muted={muted}
-        onReady={() => console.log('onReady')}
-        onStart={() => console.log('onStart')}
-        /*onPlay={this.handlePlay}*/
-        onEnablePIP={this.handleEnablePIP}
-        onDisablePIP={this.handleDisablePIP}
-        onPause={this.handlePause}
-        onBuffer={() => console.log('onBuffer')}
-        onSeek={e => console.log('onSeek', e)}
-        onEnded={this.handleEnded}
-        onError={e => console.log('onError', e)}
-        onProgress={this.handleProgress}
-        onDuration={this.handleDuration}/>
-        <b>Stay with me</b><br></br>Madison Beer</Col>
-        <Col> <ReactPlayer
-        ref={this.ref}
-        className='react-player'
-        width='200px'
-        height='200px'
-        url={url[224]}
-        pip={pip}
-        playing={playing}
-        controls={controls}
-        light={true}
-        loop={loop}
-        playbackRate={playbackRate}
-        volume={volume}
-        muted={muted}
-        onReady={() => console.log('onReady')}
-        onStart={() => console.log('onStart')}
-        /*onPlay={this.handlePlay}*/
-        onEnablePIP={this.handleEnablePIP}
-        onDisablePIP={this.handleDisablePIP}
-        onPause={this.handlePause}
-        onBuffer={() => console.log('onBuffer')}
-        onSeek={e => console.log('onSeek', e)}
-        onEnded={this.handleEnded}
-        onError={e => console.log('onError', e)}
-        onProgress={this.handleProgress}
-        onDuration={this.handleDuration}/>
-        <b>Sun Saathiya</b><br></br>Divya
-        Kumar, Priya Saraiya</Col>
-        </Row>
-        <div><br></br></div>
-        <Row>
-        <Col> <ReactPlayer
-        ref={this.ref}
-        className='react-player'
-        width='200px'
-        height='200px'
-        url={url[225]}
-        pip={pip}
-        playing={playing}
-        controls={controls}
-        light={true}
-        loop={loop}
-        playbackRate={playbackRate}
-        volume={volume}
-        muted={muted}
-        onReady={() => console.log('onReady')}
-        onStart={() => console.log('onStart')}
-        /*onPlay={this.handlePlay}*/
-        onEnablePIP={this.handleEnablePIP}
-        onDisablePIP={this.handleDisablePIP}
-        onPause={this.handlePause}
-        onBuffer={() => console.log('onBuffer')}
-        onSeek={e => console.log('onSeek', e)}
-        onEnded={this.handleEnded}
-        onError={e => console.log('onError', e)}
-        onProgress={this.handleProgress}
-        onDuration={this.handleDuration}/>
-        <b>Kiss me , Kiss me </b><br></br>Issac Hong</Col>
-        <Col> <ReactPlayer
-        ref={this.ref}
-        className='react-player'
-        width='200px'
-        height='200px'
-        url={url[226]}
-        pip={pip}
-        playing={playing}
-        controls={controls}
-        light={true}
-        loop={loop}
-        playbackRate={playbackRate}
-        volume={volume}
-        muted={muted}
-        onReady={() => console.log('onReady')}
-        onStart={() => console.log('onStart')}
-        /*onPlay={this.handlePlay}*/
-        onEnablePIP={this.handleEnablePIP}
-        onDisablePIP={this.handleDisablePIP}
-        onPause={this.handlePause}
-        onBuffer={() => console.log('onBuffer')}
-        onSeek={e => console.log('onSeek', e)}
-        onEnded={this.handleEnded}
-        onError={e => console.log('onError', e)}
-        onProgress={this.handleProgress}
-        onDuration={this.handleDuration}/>
-        <b>Let Me Love You</b><br></br>Yurisangja</Col>
-        <Col> <ReactPlayer
-        ref={this.ref}
-        className='react-player'
-        width='200px'
-        height='200px'
-        url={url[227]}
-        pip={pip}
-        playing={playing}
-        controls={controls}
-        light={true}
-        loop={loop}
-        playbackRate={playbackRate}
-        volume={volume}
-        muted={muted}
-        onReady={() => console.log('onReady')}
-        onStart={() => console.log('onStart')}
-        /*onPlay={this.handlePlay}*/
-        onEnablePIP={this.handleEnablePIP}
-        onDisablePIP={this.handleDisablePIP}
-        onPause={this.handlePause}
-        onBuffer={() => console.log('onBuffer')}
-        onSeek={e => console.log('onSeek', e)}
-        onEnded={this.handleEnded}
-        onError={e => console.log('onError', e)}
-        onProgress={this.handleProgress}
-        onDuration={this.handleDuration}/>
-        <b>Telusa Telusa</b><br></br>Jubin Nautiyal,Sameera Bharadwaj</Col>
-        <Col> <ReactPlayer
-        ref={this.ref}
-        className='react-player'
-        width='200px'
-        height='200px'
-        url={url[228]}
-        pip={pip}
-        playing={playing}
-        controls={controls}
-        light={true}
-        loop={loop}
-        playbackRate={playbackRate}
-        volume={volume}
-        muted={muted}
-        onReady={() => console.log('onReady')}
-        onStart={() => console.log('onStart')}
-        /*onPlay={this.handlePlay}*/
-        onEnablePIP={this.handleEnablePIP}
-        onDisablePIP={this.handleDisablePIP}
-        onPause={this.handlePause}
-        onBuffer={() => console.log('onBuffer')}
-        onSeek={e => console.log('onSeek', e)}
-        onEnded={this.handleEnded}
-        onError={e => console.log('onError', e)}
-        onProgress={this.handleProgress}
-        onDuration={this.handleDuration}/>
-        <b>Tu Jo Mila- Raabta</b><br></br>Shirley Setia, Jubin
-Nautiyal </Col>
-        <Col> <ReactPlayer
-        ref={this.ref}
-        className='react-player'
-        width='200px'
-        height='200px'
-        url={url[229]}
-        pip={pip}
-        playing={playing}
-        controls={controls}
-        light={true}
-        loop={loop}
-        playbackRate={playbackRate}
-        volume={volume}
-        muted={muted}
-        onReady={() => console.log('onReady')}
-        onStart={() => console.log('onStart')}
-        /*onPlay={this.handlePlay}*/
-        onEnablePIP={this.handleEnablePIP}
-        onDisablePIP={this.handleDisablePIP}
-        onPause={this.handlePause}
-        onBuffer={() => console.log('onBuffer')}
-        onSeek={e => console.log('onSeek', e)}
-        onEnded={this.handleEnded}
-        onError={e => console.log('onError', e)}
-        onProgress={this.handleProgress}
-        onDuration={this.handleDuration}/>
-        <b>Headlights</b><br></br>Chase McBride </Col>
-        </Row>
-            </Container>
-                ) : ('')
-            }
-                      
-        {
-            (((this.state.temperature - 32)*5/9) >= 20 && ((this.state.temperature - 32)*5/9)<25  && (this.state.description =="Rain"))  ? (
-                <Container fluid="fluid">
-                <Row>
-            <Col> <ReactPlayer
-            ref={this.ref}
-            className='react-player'
-            width='200px'
-            height='200px'
-            url={url[230]}
-            pip={pip}
-            playing={playing}
-            controls={controls}
-            light={true}
-            loop={loop}
-            playbackRate={playbackRate}
-            volume={volume}
-            muted={muted}
-            onReady={() => console.log('onReady')}
-            onStart={() => console.log('onStart')}
-            /*onPlay={this.handlePlay}*/
-            onEnablePIP={this.handleEnablePIP}
-            onDisablePIP={this.handleDisablePIP}
-            onPause={this.handlePause}
-            onBuffer={() => console.log('onBuffer')}
-            onSeek={e => console.log('onSeek', e)}
-            onEnded={this.handleEnded}
-            onError={e => console.log('onError', e)}
-            onProgress={this.handleProgress}
-            onDuration={this.handleDuration}/>
-            <b>Enna Sona </b><br></br>Arijit Singh</Col>
-            <Col><ReactPlayer
-            ref={this.ref}
-            className='react-player'
-            width='200px'
-            height='200px'
-            url={url[231]}
-            pip={pip}
-            playing={playing}
-            controls={controls}
-            light={true}
-            loop={loop}
-            playbackRate={playbackRate}
-            volume={volume}
-            muted={muted}
-            onReady={() => console.log('onReady')}
-            onStart={() => console.log('onStart')}
-            /*onPlay={this.handlePlay}*/
-            onEnablePIP={this.handleEnablePIP}
-            onDisablePIP={this.handleDisablePIP}
-            onPause={this.handlePause}
-            onBuffer={() => console.log('onBuffer')}
-            onSeek={e => console.log('onSeek', e)}
-            onEnded={this.handleEnded}
-            onError={e => console.log('onError', e)}
-            onProgress={this.handleProgress}
-            onDuration={this.handleDuration}/>
-            <b>Umbrella </b><br></br>Ember Island</Col>
-            <Col> <ReactPlayer
-            ref={this.ref}
-            className='react-player'
-            width='200px'
-            height='200px'
-            url={url[232]}
-            pip={pip}
-            playing={playing}
-            controls={controls}
-            light={true}
-            loop={loop}
-            playbackRate={playbackRate}
-            volume={volume}
-            muted={muted}
-            onReady={() => console.log('onReady')}
-            onStart={() => console.log('onStart')}
-            /*onPlay={this.handlePlay}*/
-            onEnablePIP={this.handleEnablePIP}
-            onDisablePIP={this.handleDisablePIP}
-            onPause={this.handlePause}
-            onBuffer={() => console.log('onBuffer')}
-            onSeek={e => console.log('onSeek', e)}
-            onEnded={this.handleEnded}
-            onError={e => console.log('onError', e)}
-            onProgress={this.handleProgress}
-            onDuration={this.handleDuration}/>
-            <b>Varsham Munduga</b><br></br>Sunitha, SUZANNE</Col>
-            <Col> <ReactPlayer
-            ref={this.ref}
-            className='react-player'
-            width='200px'
-            height='200px'
-            url={url[233]}
-            pip={pip}
-            playing={playing}
-            controls={controls}
-            light={true}
-            loop={loop}
-            playbackRate={playbackRate}
-            volume={volume}
-            muted={muted}
-            onReady={() => console.log('onReady')}
-            onStart={() => console.log('onStart')}
-            /*onPlay={this.handlePlay}*/
-            onEnablePIP={this.handleEnablePIP}
-            onDisablePIP={this.handleDisablePIP}
-            onPause={this.handlePause}
-            onBuffer={() => console.log('onBuffer')}
-            onSeek={e => console.log('onSeek', e)}
-            onEnded={this.handleEnded}
-            onError={e => console.log('onError', e)}
-            onProgress={this.handleProgress}
-            onDuration={this.handleDuration}/>
-            <b>Stay with me Goblin</b><br></br>Punch, Chanyeol</Col>
-            <Col> <ReactPlayer
-            ref={this.ref}
-            className='react-player'
-            width='200px'
-            height='200px'
-            url={url[234]}
-            pip={pip}
-            playing={playing}
-            controls={controls}
-            light={true}
-            loop={loop}
-            playbackRate={playbackRate}
-            volume={volume}
-            muted={muted}
-            onReady={() => console.log('onReady')}
-            onStart={() => console.log('onStart')}
-            /*onPlay={this.handlePlay}*/
-            onEnablePIP={this.handleEnablePIP}
-            onDisablePIP={this.handleDisablePIP}
-            onPause={this.handlePause}
-            onBuffer={() => console.log('onBuffer')}
-            onSeek={e => console.log('onSeek', e)}
-            onEnded={this.handleEnded}
-            onError={e => console.log('onError', e)}
-            onProgress={this.handleProgress}
-            onDuration={this.handleDuration}/>
-            <b>Bezubaan phir se</b><br></br>Vishal Dadlani, Anushka Manchanda,Madhav Krishnan</Col>
-            </Row>
-            <div><br></br></div>
-            <Row>
-            <Col> <ReactPlayer
-            ref={this.ref}
-            className='react-player'
-            width='200px'
-            height='200px'
-            url={url[235]}
-            pip={pip}
-            playing={playing}
-            controls={controls}
-            light={true}
-            loop={loop}
-            playbackRate={playbackRate}
-            volume={volume}
-            muted={muted}
-            onReady={() => console.log('onReady')}
-            onStart={() => console.log('onStart')}
-            /*onPlay={this.handlePlay}*/
-            onEnablePIP={this.handleEnablePIP}
-            onDisablePIP={this.handleDisablePIP}
-            onPause={this.handlePause}
-            onBuffer={() => console.log('onBuffer')}
-            onSeek={e => console.log('onSeek', e)}
-            onEnded={this.handleEnded}
-            onError={e => console.log('onError', e)}
-            onProgress={this.handleProgress}
-            onDuration={this.handleDuration}/>
-            <b>Zara Zara </b><br></br>Bombay Jayashri </Col>
-            <Col> <ReactPlayer
-            ref={this.ref}
-            className='react-player'
-            width='200px'
-            height='200px'
-            url={url[236]}
-            pip={pip}
-            playing={playing}
-            controls={controls}
-            light={true}
-            loop={loop}
-            playbackRate={playbackRate}
-            volume={volume}
-            muted={muted}
-            onReady={() => console.log('onReady')}
-            onStart={() => console.log('onStart')}
-            /*onPlay={this.handlePlay}*/
-            onEnablePIP={this.handleEnablePIP}
-            onDisablePIP={this.handleDisablePIP}
-            onPause={this.handlePause}
-            onBuffer={() => console.log('onBuffer')}
-            onSeek={e => console.log('onSeek', e)}
-            onEnded={this.handleEnded}
-            onError={e => console.log('onError', e)}
-            onProgress={this.handleProgress}
-            onDuration={this.handleDuration}/>
-            <b>Tum Hi Ho </b><br></br>Arijit Singh</Col>
-            <Col> <ReactPlayer
-            ref={this.ref}
-            className='react-player'
-            width='200px'
-            height='200px'
-            url={url[237]}
-            pip={pip}
-            playing={playing}
-            controls={controls}
-            light={true}
-            loop={loop}
-            playbackRate={playbackRate}
-            volume={volume}
-            muted={muted}
-            onReady={() => console.log('onReady')}
-            onStart={() => console.log('onStart')}
-            /*onPlay={this.handlePlay}*/
-            onEnablePIP={this.handleEnablePIP}
-            onDisablePIP={this.handleDisablePIP}
-            onPause={this.handlePause}
-            onBuffer={() => console.log('onBuffer')}
-            onSeek={e => console.log('onSeek', e)}
-            onEnded={this.handleEnded}
-            onError={e => console.log('onError', e)}
-            onProgress={this.handleProgress}
-            onDuration={this.handleDuration}/>
-            <b>Arere Vaanaa </b><br></br>Rahul Nambiar,Saindhavi</Col>
-            <Col> <ReactPlayer
-            ref={this.ref}
-            className='react-player'
-            width='200px'
-            height='200px'
-            url={url[238]}
-            pip={pip}
-            playing={playing}
-            controls={controls}
-            light={true}
-            loop={loop}
-            playbackRate={playbackRate}
-            volume={volume}
-            muted={muted}
-            onReady={() => console.log('onReady')}
-            onStart={() => console.log('onStart')}
-            /*onPlay={this.handlePlay}*/
-            onEnablePIP={this.handleEnablePIP}
-            onDisablePIP={this.handleDisablePIP}
-            onPause={this.handlePause}
-            onBuffer={() => console.log('onBuffer')}
-            onSeek={e => console.log('onSeek', e)}
-            onEnded={this.handleEnded}
-            onError={e => console.log('onError', e)}
-            onProgress={this.handleProgress}
-            onDuration={this.handleDuration}/>
-            <b>Cham Cham</b><br></br>Meet Bros,
-            Monali Thakur </Col>
-            <Col> <ReactPlayer
-            ref={this.ref}
-            className='react-player'
-            width='200px'
-            height='200px'
-            url={url[239]}
-            pip={pip}
-            playing={playing}
-            controls={controls}
-            light={true}
-            loop={loop}
-            playbackRate={playbackRate}
-            volume={volume}
-            muted={muted}
-            onReady={() => console.log('onReady')}
-            onStart={() => console.log('onStart')}
-            /*onPlay={this.handlePlay}*/
-            onEnablePIP={this.handleEnablePIP}
-            onDisablePIP={this.handleDisablePIP}
-            onPause={this.handlePause}
-            onBuffer={() => console.log('onBuffer')}
-            onSeek={e => console.log('onSeek', e)}
-            onEnded={this.handleEnded}
-            onError={e => console.log('onError', e)}
-            onProgress={this.handleProgress}
-            onDuration={this.handleDuration}/>
-            <b>Ninnila</b><br></br>Armaan Malik, S.
-              Thaman
-             </Col>
-            </Row>
-                </Container>
-                    ) : ('')
-                }
+              {
+              (((this.state.temperature - 32)*5/9) >= 20 && ((this.state.temperature - 32)*5/9)<25  && (this.state.description =="Snow"))  ? (
+                  <Container fluid="fluid">
+                  <Row>
+              <Col> <ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='200px'
+              height='200px'
+              url={url[220]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={true}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration}/>
+              <b>Ishq wala love </b><br></br>Neeti Mohan, Shekhar Ravjiani, Salim Merchant</Col>
+              <Col><ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='200px'
+              height='200px'
+              url={url[221]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={true}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration}/>
+              <b>Beautiful </b><br></br>Jungkook</Col>
+              <Col> <ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='200px'
+              height='200px'
+              url={url[222]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={true}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration}/>
+              <b>Perfect</b><br></br>Ed Sheeran</Col>
+              <Col> <ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='200px'
+              height='200px'
+              url={url[223]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={true}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration}/>
+              <b>Stay with me</b><br></br>Madison Beer</Col>
+              <Col> <ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='200px'
+              height='200px'
+              url={url[224]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={true}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration}/>
+              <b>Sun Saathiya</b><br></br>Divya
+              Kumar, Priya Saraiya</Col>
+              </Row>
+              <div><br></br></div>
+              <Row>
+              <Col> <ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='200px'
+              height='200px'
+              url={url[225]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={true}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration}/>
+              <b>Kiss me , Kiss me </b><br></br>Sarah Geronimo</Col>
+              <Col> <ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='200px'
+              height='200px'
+              url={url[226]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={true}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration}/>
+              <b>Let Me Love You</b><br></br>DJ Snake</Col>
+              <Col> <ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='200px'
+              height='200px'
+              url={url[227]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={true}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration}/>
+              <b>Telusa Telusa</b><br></br>Jubin Nautiyal,Sameera Bharadwaj</Col>
+              <Col> <ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='200px'
+              height='200px'
+              url={url[228]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={true}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration}/>
+              <b>Tu Jo Mila- Raabta</b><br></br>Shirley Setia, Jubin Nautiyal </Col>
+              <Col> <ReactPlayer
+              ref={this.ref}
+              className='react-player'
+              width='200px'
+              height='200px'
+              url={url[229]}
+              pip={pip}
+              playing={playing}
+              controls={controls}
+              light={true}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onReady={() => console.log('onReady')}
+              onStart={() => console.log('onStart')}
+              /*onPlay={this.handlePlay}*/
+              onEnablePIP={this.handleEnablePIP}
+              onDisablePIP={this.handleDisablePIP}
+              onPause={this.handlePause}
+              onBuffer={() => console.log('onBuffer')}
+              onSeek={e => console.log('onSeek', e)}
+              onEnded={this.handleEnded}
+              onError={e => console.log('onError', e)}
+              onProgress={this.handleProgress}
+              onDuration={this.handleDuration}/>
+              <b>Headlights</b><br></br>Chase McBride </Col>
+              </Row>
+                  </Container>
+                      ) : ('')
+                  }
+                            
+                {
+                  (((this.state.temperature - 32)*5/9) >= 20 && ((this.state.temperature - 32)*5/9)<25  && (this.state.description =="Rain"))  ? (
+                      <Container fluid="fluid">
+                      <Row>
+                  <Col> <ReactPlayer
+                  ref={this.ref}
+                  className='react-player'
+                  width='200px'
+                  height='200px'
+                  url={url[230]}
+                  pip={pip}
+                  playing={playing}
+                  controls={controls}
+                  light={true}
+                  loop={loop}
+                  playbackRate={playbackRate}
+                  volume={volume}
+                  muted={muted}
+                  onReady={() => console.log('onReady')}
+                  onStart={() => console.log('onStart')}
+                  /*onPlay={this.handlePlay}*/
+                  onEnablePIP={this.handleEnablePIP}
+                  onDisablePIP={this.handleDisablePIP}
+                  onPause={this.handlePause}
+                  onBuffer={() => console.log('onBuffer')}
+                  onSeek={e => console.log('onSeek', e)}
+                  onEnded={this.handleEnded}
+                  onError={e => console.log('onError', e)}
+                  onProgress={this.handleProgress}
+                  onDuration={this.handleDuration}/>
+                  <b>Enna Sona </b><br></br>Arijit Singh</Col>
+                  <Col><ReactPlayer
+                  ref={this.ref}
+                  className='react-player'
+                  width='200px'
+                  height='200px'
+                  url={url[231]}
+                  pip={pip}
+                  playing={playing}
+                  controls={controls}
+                  light={true}
+                  loop={loop}
+                  playbackRate={playbackRate}
+                  volume={volume}
+                  muted={muted}
+                  onReady={() => console.log('onReady')}
+                  onStart={() => console.log('onStart')}
+                  /*onPlay={this.handlePlay}*/
+                  onEnablePIP={this.handleEnablePIP}
+                  onDisablePIP={this.handleDisablePIP}
+                  onPause={this.handlePause}
+                  onBuffer={() => console.log('onBuffer')}
+                  onSeek={e => console.log('onSeek', e)}
+                  onEnded={this.handleEnded}
+                  onError={e => console.log('onError', e)}
+                  onProgress={this.handleProgress}
+                  onDuration={this.handleDuration}/>
+                  <b>Umbrella </b><br></br>Ember Island</Col>
+                  <Col> <ReactPlayer
+                  ref={this.ref}
+                  className='react-player'
+                  width='200px'
+                  height='200px'
+                  url={url[232]}
+                  pip={pip}
+                  playing={playing}
+                  controls={controls}
+                  light={true}
+                  loop={loop}
+                  playbackRate={playbackRate}
+                  volume={volume}
+                  muted={muted}
+                  onReady={() => console.log('onReady')}
+                  onStart={() => console.log('onStart')}
+                  /*onPlay={this.handlePlay}*/
+                  onEnablePIP={this.handleEnablePIP}
+                  onDisablePIP={this.handleDisablePIP}
+                  onPause={this.handlePause}
+                  onBuffer={() => console.log('onBuffer')}
+                  onSeek={e => console.log('onSeek', e)}
+                  onEnded={this.handleEnded}
+                  onError={e => console.log('onError', e)}
+                  onProgress={this.handleProgress}
+                  onDuration={this.handleDuration}/>
+                  <b>Varsham Munduga</b><br></br>Sunitha, SUZANNE</Col>
+                  <Col> <ReactPlayer
+                  ref={this.ref}
+                  className='react-player'
+                  width='200px'
+                  height='200px'
+                  url={url[233]}
+                  pip={pip}
+                  playing={playing}
+                  controls={controls}
+                  light={true}
+                  loop={loop}
+                  playbackRate={playbackRate}
+                  volume={volume}
+                  muted={muted}
+                  onReady={() => console.log('onReady')}
+                  onStart={() => console.log('onStart')}
+                  /*onPlay={this.handlePlay}*/
+                  onEnablePIP={this.handleEnablePIP}
+                  onDisablePIP={this.handleDisablePIP}
+                  onPause={this.handlePause}
+                  onBuffer={() => console.log('onBuffer')}
+                  onSeek={e => console.log('onSeek', e)}
+                  onEnded={this.handleEnded}
+                  onError={e => console.log('onError', e)}
+                  onProgress={this.handleProgress}
+                  onDuration={this.handleDuration}/>
+                  <b>Stay with me Goblin</b><br></br>Punch, Chanyeol</Col>
+                  <Col> <ReactPlayer
+                  ref={this.ref}
+                  className='react-player'
+                  width='200px'
+                  height='200px'
+                  url={url[234]}
+                  pip={pip}
+                  playing={playing}
+                  controls={controls}
+                  light={true}
+                  loop={loop}
+                  playbackRate={playbackRate}
+                  volume={volume}
+                  muted={muted}
+                  onReady={() => console.log('onReady')}
+                  onStart={() => console.log('onStart')}
+                  /*onPlay={this.handlePlay}*/
+                  onEnablePIP={this.handleEnablePIP}
+                  onDisablePIP={this.handleDisablePIP}
+                  onPause={this.handlePause}
+                  onBuffer={() => console.log('onBuffer')}
+                  onSeek={e => console.log('onSeek', e)}
+                  onEnded={this.handleEnded}
+                  onError={e => console.log('onError', e)}
+                  onProgress={this.handleProgress}
+                  onDuration={this.handleDuration}/>
+                  <b>Bezubaan phir se</b><br></br>Vishal Dadlani, Anushka Manchanda,Madhav Krishnan</Col>
+                  </Row>
+                  <div><br></br></div>
+                  <Row>
+                  <Col> <ReactPlayer
+                  ref={this.ref}
+                  className='react-player'
+                  width='200px'
+                  height='200px'
+                  url={url[235]}
+                  pip={pip}
+                  playing={playing}
+                  controls={controls}
+                  light={true}
+                  loop={loop}
+                  playbackRate={playbackRate}
+                  volume={volume}
+                  muted={muted}
+                  onReady={() => console.log('onReady')}
+                  onStart={() => console.log('onStart')}
+                  /*onPlay={this.handlePlay}*/
+                  onEnablePIP={this.handleEnablePIP}
+                  onDisablePIP={this.handleDisablePIP}
+                  onPause={this.handlePause}
+                  onBuffer={() => console.log('onBuffer')}
+                  onSeek={e => console.log('onSeek', e)}
+                  onEnded={this.handleEnded}
+                  onError={e => console.log('onError', e)}
+                  onProgress={this.handleProgress}
+                  onDuration={this.handleDuration}/>
+                  <b>Zara Zara </b><br></br>Bombay Jayashri </Col>
+                  <Col> <ReactPlayer
+                  ref={this.ref}
+                  className='react-player'
+                  width='200px'
+                  height='200px'
+                  url={url[236]}
+                  pip={pip}
+                  playing={playing}
+                  controls={controls}
+                  light={true}
+                  loop={loop}
+                  playbackRate={playbackRate}
+                  volume={volume}
+                  muted={muted}
+                  onReady={() => console.log('onReady')}
+                  onStart={() => console.log('onStart')}
+                  /*onPlay={this.handlePlay}*/
+                  onEnablePIP={this.handleEnablePIP}
+                  onDisablePIP={this.handleDisablePIP}
+                  onPause={this.handlePause}
+                  onBuffer={() => console.log('onBuffer')}
+                  onSeek={e => console.log('onSeek', e)}
+                  onEnded={this.handleEnded}
+                  onError={e => console.log('onError', e)}
+                  onProgress={this.handleProgress}
+                  onDuration={this.handleDuration}/>
+                  <b>Tum Hi Ho </b><br></br>Arijit Singh</Col>
+                  <Col> <ReactPlayer
+                  ref={this.ref}
+                  className='react-player'
+                  width='200px'
+                  height='200px'
+                  url={url[237]}
+                  pip={pip}
+                  playing={playing}
+                  controls={controls}
+                  light={true}
+                  loop={loop}
+                  playbackRate={playbackRate}
+                  volume={volume}
+                  muted={muted}
+                  onReady={() => console.log('onReady')}
+                  onStart={() => console.log('onStart')}
+                  /*onPlay={this.handlePlay}*/
+                  onEnablePIP={this.handleEnablePIP}
+                  onDisablePIP={this.handleDisablePIP}
+                  onPause={this.handlePause}
+                  onBuffer={() => console.log('onBuffer')}
+                  onSeek={e => console.log('onSeek', e)}
+                  onEnded={this.handleEnded}
+                  onError={e => console.log('onError', e)}
+                  onProgress={this.handleProgress}
+                  onDuration={this.handleDuration}/>
+                  <b>Arere Vaanaa </b><br></br>Rahul Nambiar,Saindhavi</Col>
+                  <Col> <ReactPlayer
+                  ref={this.ref}
+                  className='react-player'
+                  width='200px'
+                  height='200px'
+                  url={url[238]}
+                  pip={pip}
+                  playing={playing}
+                  controls={controls}
+                  light={true}
+                  loop={loop}
+                  playbackRate={playbackRate}
+                  volume={volume}
+                  muted={muted}
+                  onReady={() => console.log('onReady')}
+                  onStart={() => console.log('onStart')}
+                  /*onPlay={this.handlePlay}*/
+                  onEnablePIP={this.handleEnablePIP}
+                  onDisablePIP={this.handleDisablePIP}
+                  onPause={this.handlePause}
+                  onBuffer={() => console.log('onBuffer')}
+                  onSeek={e => console.log('onSeek', e)}
+                  onEnded={this.handleEnded}
+                  onError={e => console.log('onError', e)}
+                  onProgress={this.handleProgress}
+                  onDuration={this.handleDuration}/>
+                  <b>Ye mausam ki baarish</b><br></br>Monali Thakur, Ash King</Col>
+                  <Col> <ReactPlayer
+                  ref={this.ref}
+                  className='react-player'
+                  width='200px'
+                  height='200px'
+                  url={url[239]}
+                  pip={pip}
+                  playing={playing}
+                  controls={controls}
+                  light={true}
+                  loop={loop}
+                  playbackRate={playbackRate}
+                  volume={volume}
+                  muted={muted}
+                  onReady={() => console.log('onReady')}
+                  onStart={() => console.log('onStart')}
+                  /*onPlay={this.handlePlay}*/
+                  onEnablePIP={this.handleEnablePIP}
+                  onDisablePIP={this.handleDisablePIP}
+                  onPause={this.handlePause}
+                  onBuffer={() => console.log('onBuffer')}
+                  onSeek={e => console.log('onSeek', e)}
+                  onEnded={this.handleEnded}
+                  onError={e => console.log('onError', e)}
+                  onProgress={this.handleProgress}
+                  onDuration={this.handleDuration}/>
+                  <b>Ninnila</b><br></br>Armaan Malik, S.Thaman
+                  </Col>
+                  </Row>
+                      </Container>
+                          ) : ('')
+                      }
                           
-            {
+                 {
                 (((this.state.temperature - 32)*5/9) >= 20 && ((this.state.temperature - 32)*5/9)<25  && (this.state.description =="Thunderstorm"))  ? (
                     <Container fluid="fluid">
                     <Row>
@@ -2295,7 +2296,7 @@ Nautiyal </Col>
                 onError={e => console.log('onError', e)}
                 onProgress={this.handleProgress}
                 onDuration={this.handleDuration}/>
-                <b>Be Khayali</b><br></br>Sachet Tandon</Col>
+                <b>Bekhayali</b><br></br>Sachet Tandon</Col>
                 <Col> <ReactPlayer
                 ref={this.ref}
                 className='react-player'
@@ -2349,7 +2350,7 @@ Nautiyal </Col>
                 onError={e => console.log('onError', e)}
                 onProgress={this.handleProgress}
                 onDuration={this.handleDuration}/>
-                <b>Zaroorat</b><br></br>Siddarth Slathia</Col>
+                <b>Zaroorat</b><br></br>Mustafa Zahid</Col>
                 </Row>
                 <div><br></br></div>
                 <Row>
@@ -3077,7 +3078,7 @@ Nautiyal </Col>
                     onEnded={this.handleEnded}
                     onError={e => console.log('onError', e)}
                     onProgress={this.handleProgress}
-                    onDuration={this.handleDuration}/><b>Darkhaast </b><br></br>Arijit Singh</Col>         
+                    onDuration={this.handleDuration}/><b>Darkhaast </b><br></br>Armaan Malik, Sukriti Kakar</Col>         
                     <Col><ReactPlayer
                      ref={this.ref}
                      className='react-player'
