@@ -201,7 +201,7 @@ class Home extends Component {
           <div className='app'>
               <div className="stickycontent">
               <ParticlesBg type="lines" bg={true} />
-                <div className="inner particle">
+              <div className="inner particle">
              <Container fluid="fluid">
              <div><br></br></div>
              <h3>Featured this week</h3>

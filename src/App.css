@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 html, body {
   height: 100%;
@@ -69,10 +70,12 @@ html, body {
     opacity: 2;
   }
   .nav1 {
-    margin-left: 1600%;
+    margin-left: 1400%;
+    font-family: 'Courgette', cursive;
   }
   .nav2 {
-    margin-left: 1300%;
+    margin-left: 1100%;
+    font-family: 'Courgette', cursive;
   }
 }
 
@@ -99,10 +102,10 @@ html, body {
     opacity: 2;
   }
   .nav1 {
-    margin-left: 1400%;
+    margin-left: 1100%;
   }
   .nav2 {
-    margin-left: 1100%;
+    margin-left: 800%;
   }
 }
 
@@ -111,6 +114,7 @@ html, body {
   overflow-x: hidden;
   overflow: auto;
   color: rgb(235, 228, 219);
+  font-family: 'Courgette', cursive;
 }
 @media (max-width: 1920px) {
 .stickycontent-weather {
@@ -129,10 +133,12 @@ html, body {
   opacity: 2;
 }
 .nav1 {
-  margin-left: 1600%;
+  margin-left: 1400%;
+  font-family: 'Courgette', cursive;
 }
 .nav2 {
-  margin-left: 1300%;
+  margin-left: 1100%;
+  font-family: 'Courgette', cursive;
 }
 }
 
@@ -153,10 +159,10 @@ html, body {
     opacity: 2;
   }
   .nav1 {
-    margin-left: 1400%;
+    margin-left: 1100%;
   }
   .nav2 {
-    margin-left: 1100%;
+    margin-left: 800%;
   }
   }
 .inner-weather {
@@ -164,6 +170,7 @@ html, body {
   overflow-x: hidden;
   overflow: auto;
   color: rgb(235, 228, 219);
+  font-family: 'Courgette', cursive;
 }
 .song{
   color: white;
