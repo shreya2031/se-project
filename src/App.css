@@ -71,11 +71,11 @@ html, body {
     opacity: 2;
   }
   .nav1 {
-    margin-left: 1400%;
+    margin-left: 1500%; 
     font-family: 'Courgette', cursive;
   }
   .nav2 {
-    margin-left: 1100%;
+    margin-left: 500%;
     font-family: 'Courgette', cursive;
   }
 }
@@ -103,10 +103,10 @@ html, body {
     opacity: 2;
   }
   .nav1 {
-    margin-left: 1100%;
+    margin-left: 1000%;
   }
   .nav2 {
-    margin-left: 800%;
+    margin-left: 400%;
   }
 }
 
@@ -134,11 +134,11 @@ html, body {
   opacity: 2;
 }
 .nav1 {
-  margin-left: 1400%;
+  margin-left: 1500%;
   font-family: 'Courgette', cursive;
 }
 .nav2 {
-  margin-left: 1100%;
+  margin-left: 500%;
   font-family: 'Courgette', cursive;
 }
 }
@@ -160,10 +160,10 @@ html, body {
     opacity: 2;
   }
   .nav1 {
-    margin-left: 1100%;
+    margin-left: 1000%;
   }
   .nav2 {
-    margin-left: 800%;
+    margin-left: 400%;
   }
   }
 .inner-weather {

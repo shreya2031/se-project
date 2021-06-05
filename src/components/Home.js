@@ -46,21 +46,21 @@ class Home extends Component {
           'https://soundcloud.com/auroraaksnes/runawaysingle?in_system_playlist=charts-top%3Apop%3Ain',
           'https://soundcloud.com/wellaonthebeat/bts-dynamite-side-b-ver',
           'https://soundcloud.com/ladygaga/rain-on-me-purple-disco',
-          'https://soundcloud.com/desimelodies/lut-gaye',
-          'https://soundcloud.com/officialspeedrecords/brown-munde',
-          'https://soundcloud.com/celebrity-hub/nadiyon-paar-let-the-music',
+          'https://soundcloud.com/officialjubinnautiyal/lut-gaye',
+          'https://soundcloud.com/apdhillonofficial/ap-dhillon-brown-munde-1',
+          'https://soundcloud.com/itsdjnik/dj-nik-nadiyon-par-basshall-mashup',
           'https://soundcloud.com/sohaib-hassan-8/dil-mein-ho-tum-by-armaan-malik-emraan-hashmi-cheat-india',
           'https://soundcloud.com/chandra-mohan-mishra-743588254/agar-tum-saath-ho',
           'https://soundcloud.com/vijayakumar-mayuooran/dhee-ft-arivu-enjoy-enjaami-prod-santhosh-narayanan-audiotrimmercom',
           'https://soundcloud.com/ahsan-bin-saif/khairiyat-arjit-singh',
-          'https://soundcloud.com/web-tafri/tujhe-kitna-chahne-lage',
+          'https://soundcloud.com/officialjubinnautiyal/tujhe-kitna-chahne-lage',
           'https://soundcloud.com/user-713826249/buttabomma',
-          'https://soundcloud.com/user-128952576/liggi-ritviz-8d-track',
+          'https://soundcloud.com/youngblood-pranav/ritviz-liggi',
           'https://soundcloud.com/harnoorhere/waalian-by-harnoor',
           'https://soundcloud.com/user-372843377/vaathi-coming-starmusiq-top',
-          'https://soundcloud.com/sho-soft19/ghungroo-war-mp3',
+          'https://soundcloud.com/devanand-s-loohana/ghungroo_song-war',
           'https://soundcloud.com/hammad-javed-302364557/tu-hi-yaar-mera',
-          'https://soundcloud.com/desimelodies/saiyaan-ji',
+          'https://soundcloud.com/mohsin-mjbdj/saiyaan-ji-yo-yo-honey-singh',
           'https://soundcloud.com/siddharth-rajpurohit-318820092/hawayein-jab-harry-met-sejal',
           'https://soundcloud.com/user-888293352/saranga-dariya-love-story-new-movie-dj-song-2021-rs-dj-production-sircilla',
           'https://soundcloud.com/prinka-parm-90882925/shayad-love-aaj-kal-2-arijit-1',
@@ -1541,62 +1541,8 @@ class Home extends Component {
                   onDuration={this.handleDuration} /><b>Duniyaa</b><br></br>Ahil, Dhvani Bhanushali</Col>
                   
                </Row>
+               <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
              </Container >
-              <table >
-                <tbody>
-                  <tr>
-                    <th>Controls</th>
-                    <td>
-                      <button onClick={this.handleStop}>Stop</button>
-                      <button onClick={this.handlePlayPause}>{playing ? 'pause' : 'play'}&#9654;&#65039;</button>
-                      <button onClick={this.handleClickFullscreen}>Fullscreen</button>
-                      {light &&
-                        <button onClick={() => this.player.showPreview()}>Show preview</button>}
-                      {ReactPlayer.canEnablePIP(url) &&
-                        <button onClick={this.handleTogglePIP}>{pip ? 'Disable PiP' : 'Enable PiP'}</button>}
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Speed</th>
-                    <td>
-                      <button onClick={this.handleSetPlaybackRate} value={1}>1x</button>
-                      <button onClick={this.handleSetPlaybackRate} value={1.5}>1.5x</button>
-                      <button onClick={this.handleSetPlaybackRate} value={2}>2x</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Seek</th>
-                    <td>
-                      <Progress min={0} max={0.999999} value={played} />
-                      <input
-                        type='range' min={0} max={0.999999} step='any'
-                        value={played}
-                        onSeekStart={this.handleSeek}
-                        onSeekEnd={this.handleSeekEnd}
-                        onMouseDown={this.handleSeekMouseDown}
-                        onChange={this.handleSeekChange}
-                        onMouseUp={this.handleSeekMouseUp}
-                      />
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Volume</th>
-                    <td>
-                      <input type='range' min={0} max={1} step='any' value={volume} onChange={this.handleVolumeChange} />
-                    </td>
-                  </tr>
-                  <tr>
-                  </tr>
-                  <tr>
-                    <th>Played</th>
-                    <td><progress max={1} value={played} /></td>
-                  </tr>
-                  <tr>
-                    <th>Loaded</th>
-                    <td><progress max={1} value={loaded} /></td>
-                  </tr>
-                </tbody>
-              </table>
             </div>
             </div>
            

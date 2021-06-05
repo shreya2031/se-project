@@ -125,12 +125,12 @@ class Weather extends React.Component {
       'https://soundcloud.com/tamil-geethams/yethi-yethi?in=pbizzr/sets/harris-jayaraj-hits',
       'https://soundcloud.com/akshay-se/kalyaana_vayasu',
       'https://soundcloud.com/prodbypana/heartbreak-anniversary',
-      'https://soundcloud.com/jagadeswaran/01-ola-olaala-ala-karunya-ranina-reddy?in=shreyas-ramnath/sets/telugu-latest-melodies',
+      'https://soundcloud.com/cybercriminal/ola-olalaa-ala-orange',
       'https://soundcloud.com/djvanic/vanic-aquilo-losing-you?in=1234567890221/sets/rain-songs',
       'https://soundcloud.com/telugu-prapancham/01-yemito-andala-rakshasi-2012',
       'https://soundcloud.com/wearebigbeat/galantis-runaway-ui-speaker-of-the-houses-big-beat-5th-anniversary-remix?in=1234567890221/sets/rain-songs',
       'https://soundcloud.com/khadeer-shaik/2-yenno-yenno-320kbps-songsp',
-      'https://soundcloud.com/djvanic/vanic-aquilo-losing-you?in=1234567890221/sets/rain-songs',
+      'https://soundcloud.com/user-204213725/control-armaan-malik',
       'https://soundcloud.com/preet-sidhu-1/ambarsariya-fukrey',
       'https://soundcloud.com/mp3newsongs/the-life-of-ram-96-2018',
       'https://soundcloud.com/vinay-vadloori/undiporaadhey',
@@ -174,14 +174,14 @@ class Weather extends React.Component {
       'https://soundcloud.com/amandawelton/let-it-go-frozen' ,
       'https://soundcloud.com/nada-zaki-22/demi-lavato-heart-attack-mp3' ,  
       'https://soundcloud.com/cheatcodesmusic/no-promises-feat-demi-lovato' , 
-      'https://soundcloud.com/batshitcat/enigma-sadness-part-1-2-3' , 
+      'https://soundcloud.com/user-770892280/sadness-pt1-enigma' , 
       'https://soundcloud.com/musicplug300/doja-cat-kiss-me-more-ft-sza?in_system_playlist=charts-top%3Arbsoul%3Aae' ,  
       'https://soundcloud.com/r-sh-kh-n-fr-d/sunny-sunny-ft-yo-yo-honey' ,  
       'https://soundcloud.com/youngblood-pranav/zara-zara-x-cradle-vaseegara' ,  
       'https://soundcloud.com/haya-rajpoot/gerau-dilwale' ,  
-      'https://soundcloud.com/jahangir-khan-970060329/sets/roses-imanbek' , 
-      'https://soundcloud.com/jashn/rum-and-whisky-dj-virtual' , 
-      'https://soundcloud.com/user-396339773/sets/sunset-lover' , 
+      'https://soundcloud.com/saintjhn/saint-jhn-roses-imanbek-remix' , 
+      'https://soundcloud.com/dj-sunny-gera/dj-sunny007-rum-whiskey-dirty' , 
+      'https://soundcloud.com/petitbiscuit/sunset-lover' , 
       'https://soundcloud.com/ingzamoraventura/stereo-love-edward-maya-ft' , 
       'https://soundcloud.com/erloonsouza/she-wolf-falling-to-pieces' , 
       'https://soundcloud.com/jahseh-onfroy/wanna-grow-old-i-wont-let-go-feat-jimmy-levy' ,  
@@ -277,7 +277,7 @@ class Weather extends React.Component {
       'https://soundcloud.com/itzbonay/tum-hi-ho-arijit-singh',
       'https://soundcloud.com/rahulnambiarofficial/arere-vaanaa',
       'https://soundcloud.com/mychannel-666316229/ey-mausam-ki-barish',
-      'https://soundcloud.com/krishna-thentu-66664591/ninnila-sensongsmp3co',
+      'https://soundcloud.com/user-743487256-305254187/isongsinfo-01-ninnila',
       'https://soundcloud.com/danny-delgado-music/imagine-dragons-thunder-danny-delgado-remix',
       'https://soundcloud.com/mxo907/sia-angel-by-the-wings',
       'https://soundcloud.com/ali-rehman-1/bekhayali-kabir-singh',
@@ -1077,7 +1077,7 @@ class Weather extends React.Component {
                           ) : ('')
                   }
                   {
-          (((this.state.temperature - 32)*5/9) >= 10 && ((this.state.temperature - 32)*5/9)<20  && (this.state.description =="Clear"))  ? (
+          (((this.state.temperature - 32)*5/9) >= 10 && ((this.state.temperature - 32)*5/9)<20  && (this.state.description =="Clear" || this.state.description =="Mist"|| this.state.description =="Smoke"|| this.state.description =="Haze"|| this.state.description =="Dust"|| this.state.description =="Fog"|| this.state.description =="Sand"|| this.state.description =="Dust"|| this.state.description =="Ash"|| this.state.description =="Sqall"|| this.state.description =="Tornado"))  ? (
               <Container fluid="fluid">
               <Row>
           <Col> <ReactPlayer
@@ -2779,7 +2779,7 @@ class Weather extends React.Component {
                             ) : ('')
                         }
                   {
-                  (((this.state.temperature - 32)*5/9) < 10  && (this.state.description =="Clear")) ? (
+                  (((this.state.temperature - 32)*5/9) < 10  && (this.state.description =="Clear" || this.state.description =="Mist"|| this.state.description =="Smoke"|| this.state.description =="Haze"|| this.state.description =="Dust"|| this.state.description =="Fog"|| this.state.description =="Sand"|| this.state.description =="Dust"|| this.state.description =="Ash"|| this.state.description =="Sqall"|| this.state.description =="Tornado")) ? (
                     <Container fluid="fluid">
                     <Row>
                     <Col> <ReactPlayer
@@ -4407,7 +4407,7 @@ class Weather extends React.Component {
                   }
 
 {
-                  (((this.state.temperature - 32)*5/9) >= 20 && ((this.state.temperature - 32)*5/9)<25  && (this.state.description =="Clear")) ? (
+                  (((this.state.temperature - 32)*5/9) >= 20 && ((this.state.temperature - 32)*5/9)<25  && (this.state.description =="Clear" || this.state.description =="Mist"|| this.state.description =="Smoke"|| this.state.description =="Haze"|| this.state.description =="Dust"|| this.state.description =="Fog"|| this.state.description =="Sand"|| this.state.description =="Dust"|| this.state.description =="Ash"|| this.state.description =="Sqall"|| this.state.description =="Tornado")) ? (
                     <Container fluid="fluid">
                     <Row>
                     <Col> <ReactPlayer
@@ -5492,7 +5492,7 @@ class Weather extends React.Component {
                                   ) : ('')
                   }
                   {
-                  (((this.state.temperature - 32)*5/9) >= 25 && ((this.state.temperature - 32)*5/9)<30 && (this.state.description =="Clear")) ? (
+                  (((this.state.temperature - 32)*5/9) >= 25 && ((this.state.temperature - 32)*5/9)<30 && (this.state.description =="Clear" || this.state.description =="Mist"|| this.state.description =="Smoke"|| this.state.description =="Haze"|| this.state.description =="Dust"|| this.state.description =="Fog"|| this.state.description =="Sand"|| this.state.description =="Dust"|| this.state.description =="Ash"|| this.state.description =="Sqall"|| this.state.description =="Tornado")) ? (
                     <Container fluid="fluid">
                     <Row>
                     <Col> <ReactPlayer
@@ -5624,7 +5624,7 @@ class Weather extends React.Component {
                      onEnded={this.handleEnded}
                      onError={e => console.log('onError', e)}
                      onProgress={this.handleProgress}
-                     onDuration={this.handleDuration} /><b>Losing You</b><br></br>Vanic X Aquilo</Col>
+                     onDuration={this.handleDuration} /><b>Control</b><br></br>Armaan Malik</Col>
                   </Row>
                   <div><br></br></div>
                   <Row>
@@ -6043,7 +6043,7 @@ class Weather extends React.Component {
                 ) : ('')
               }
               {
-              (((this.state.temperature - 32)*5/9) >= 30 && ((this.state.temperature - 32)*5/9)<35 && (this.state.description =="Clear")) ? (
+              (((this.state.temperature - 32)*5/9) >= 30 && ((this.state.temperature - 32)*5/9)<35 && (this.state.description =="Clear" || this.state.description =="Mist"|| this.state.description =="Smoke"|| this.state.description =="Haze"|| this.state.description =="Dust"|| this.state.description =="Fog"|| this.state.description =="Sand"|| this.state.description =="Dust"|| this.state.description =="Ash"|| this.state.description =="Sqall"|| this.state.description =="Tornado")) ? (
                 <div>
                 <Row>
                 <Col>
@@ -6603,7 +6603,7 @@ class Weather extends React.Component {
                 ) : ('')
               }
               {
-              (((this.state.temperature - 32)*5/9) >= 35 && ((this.state.temperature - 32)*5/9)<40 && (this.state.description =="Clear")) ? (
+              (((this.state.temperature - 32)*5/9) >= 35 && ((this.state.temperature - 32)*5/9)<40 && (this.state.description =="Clear" || this.state.description =="Mist"|| this.state.description =="Smoke"|| this.state.description =="Haze"|| this.state.description =="Dust"|| this.state.description =="Fog"|| this.state.description =="Sand"|| this.state.description =="Dust"|| this.state.description =="Ash"|| this.state.description =="Sqall"|| this.state.description =="Tornado")) ? (
                 <div>
                 <Row>
                 <Col>
@@ -6883,7 +6883,7 @@ class Weather extends React.Component {
                 ) : ('')
               }
               {
-              (( (this.state.temperature - 32)*5/9)>=40 && (this.state.description =="Clouds" || this.state.description =="Drizzle" || this.state.description =="Rain" || this.state.description =="Thunderstorm" || this.state.description == "Clear")) ? (
+              (( (this.state.temperature - 32)*5/9)>=40 && (this.state.description =="Clouds" || this.state.description =="Drizzle" || this.state.description =="Rain" || this.state.description =="Thunderstorm" || this.state.description == "Clear" || this.state.description =="Mist"|| this.state.description =="Smoke"|| this.state.description =="Haze"|| this.state.description =="Dust"|| this.state.description =="Fog"|| this.state.description =="Sand"|| this.state.description =="Dust"|| this.state.description =="Ash"|| this.state.description =="Sqall"|| this.state.description =="Tornado")) ? (
                 <div>
                 <Row>
                 <Col>
@@ -7376,7 +7376,7 @@ class Weather extends React.Component {
                      onEnded={this.handleEnded}
                      onError={e => console.log('onError', e)}
                      onProgress={this.handleProgress}
-                     onDuration={this.handleDuration} /><b>She Wolf</b><br></br>Sia &David Guetta</Col>
+                     onDuration={this.handleDuration} /><b>She Wolf</b><br></br>Sia, David Guetta</Col>
                      <Col><ReactPlayer
                      ref={this.ref}
                      className='react-player'

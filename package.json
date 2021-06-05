@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^4.6.0",
     "create-react-nav": "^2.6.4",
+    "firebase-tools": "^9.12.1",
     "netlify-cli": "^3.32.5",
     "node-sass": "^6.0.0",
     "particles-bg": "^2.5.5",

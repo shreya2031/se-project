@@ -18,10 +18,10 @@ const NavComponent = (props) => {
             <Nav><li style={{"color":"white"}} className="nav-link nav-font">Tiempo Grooves</li></Nav>
           </NavItem>
           <NavItem>
-            <Nav><li className="nav1"><Link to={'/se-project'} className="nav-link" style={{"color":"white","fontSize":"21px"}}> Home </Link></li></Nav>
+            <Nav><li className="nav1"><Link to={'/se-project'} className="nav-link" style={{"color":"white","fontSize":"20px"}}> Home </Link></li></Nav>
           </NavItem>
           <NavItem>
-          <Nav><li className="nav2"><Link to={'/weather'} className="nav-link" style={{"color":"white","fontSize":"21px"}}>Weather</Link></li></Nav>
+          <Nav><li className="nav2"><Link to={'/weather'} className="nav-link" style={{"color":"white","fontSize":"20px"}}>Weather&nbsp;Based&nbsp;Songs</Link></li></Nav>
           </NavItem>
           </ul>
           </Nav>
