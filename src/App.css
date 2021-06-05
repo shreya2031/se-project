@@ -26,7 +26,8 @@ html, body {
 
 .navbar {
   background-color:#0c0c0c;
-  position: fixed;
+  position: static;
+  /*position: fixed;*/
   /*
   opacity: 0.05;
   filter: alpha(opacity=5); */
