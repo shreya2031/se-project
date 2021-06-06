@@ -155,7 +155,7 @@ class Weather extends React.Component {
       'https://soundcloud.com/musicbyrahul/donu-donu-trap-remix-maari-tamil-trap-mix',
       'https://soundcloud.com/designer_rimmi/chittiyan-kalaiyan-mp3-download',
       'https://soundcloud.com/kristine-alfuerto-borgo-os/colbie-caillat-brighter-than',
-      'https://soundcloud.com/joyal-joseph-524950714/sets/kaathale-96',
+      'https://soundcloud.com/soundharya-kannan/kaathale-kaathale-cover',
       'https://soundcloud.com/dj-regard-1/jay-sean-ride-it-regard-remix',
       'https://soundcloud.com/deanlewisofficial/be-alright',
       'https://soundcloud.com/lo-freq-1/beat-of-my-heart-feat-love' , 
@@ -238,7 +238,7 @@ class Weather extends React.Component {
       'https://soundcloud.com/whenchaimettoast/sets/joy-of-little-things',
       'https://soundcloud.com/arbab-hassan-4/chota-sa-fasana',
       'https://soundcloud.com/prakash_info/gira-gira-gira-dear-comrade',
-      'https://soundcloud.com/arainmujahid/patakha-guddi-highway-full',
+      'https://soundcloud.com/ali-hussnain-sheikh/highway-patakha-guddi-ali-ali',
       'https://soundcloud.com/ritviz/ritviz-udd-gaye',
       'https://soundcloud.com/monica-east/kabhi-kabhi-aditi-zindagi',
       'https://soundcloud.com/bejoy-varghese/pavizha-mazhaye-athiran',
@@ -356,6 +356,15 @@ class Weather extends React.Component {
         humidity: undefined,
         description: undefined,
         error: "Invalid values!"
+      });
+    } else if (city && country != data.sys.country){
+      this.setState({
+        temperature: undefined,
+        city: undefined,
+        country: undefined,
+        humidity: undefined,
+        description: undefined,
+        error: "Invalid value!"
       });
     } else {
       this.setState({
@@ -506,7 +515,7 @@ class Weather extends React.Component {
               <div id="div-id">
                 
                     {//<p className="weather-error">test</p>
-                    this.state.error && <p className="weather-error" style={{"marginLeft":"42%","fontSize":"20px","fontFamily":"fantasy"}}>{this.state.error}</p>}
+                    this.state.error && <p className="weather-error" style={{"marginLeft":"44%","fontSize":"20px","fontFamily":"fantasy"}}>{this.state.error}</p>}
                   {this.state.temperature && (
                   <div>
                   <p className="weather-info typewriter-text" style={{"marginLeft":"33%","fontSize":"20px"}}>&#9925; Weather in {this.state.city}, {this.state.country} is {this.state.description} {Math.round((this.state.temperature - 32)*5/9)}&#176;C </p>
