@@ -247,7 +247,7 @@ class Weather extends React.Component {
       'https://soundcloud.com/binz_zippo31/senorita-shawn-mendes-camila-cabello-binz-remake',
       'https://soundcloud.com/interscope/imagine-dragons-demons-1',
       'https://soundcloud.com/monoworld-0613/khoj-passing-by',
-      'https://soundcloud.com/kalyan-raman-1/cheppave-chirugali',
+      'https://soundcloud.com/ashok-chowdary-678182283/cheppave-chirugali',
       'https://soundcloud.com/anshulkarwa/dildara-raone',
       'https://soundcloud.com/iamhamzakhan/o-saathi-atif-aslam',
       'https://soundcloud.com/ali-butt-554799447/chand-sifarish-fanaa-hd-full-song',
@@ -348,6 +348,15 @@ class Weather extends React.Component {
         description: data.weather[0].main,
         error: ""
       });
+    } else if (city != data.name) {
+      this.setState({
+        temperature: undefined,
+        city: undefined,
+        country: undefined,
+        humidity: undefined,
+        description: undefined,
+        error: "Invalid values!"
+      });
     } else {
       this.setState({
         //these values are found from calling the api_call
@@ -357,7 +366,7 @@ class Weather extends React.Component {
         country: undefined,
         humidity: undefined,
         description: undefined,
-        error: "Please enter the values!"
+        error: "Please enter the values properly!"
       });
     }
   };
