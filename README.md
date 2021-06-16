@@ -1,8 +1,10 @@
-# Getting Started with Create React App
+# Tiempo Grooves 🎶 - A weather based music web application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A music application that lets you stream and groove to music across the world based on the weather conditions of the place you're living in, on the go!
 
-## Available Scripts
+This application has been built using [React JS](https://reactjs.org/) , [SoundCloud API](https://developers.soundcloud.com/), [OpenWeather API](https://openweathermap.org/) and [React-Player](https://www.npmjs.com/package/react-player)
+
+
 
 In the project directory, you can run:
 
@@ -45,26 +47,3 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
