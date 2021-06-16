@@ -1,4 +1,4 @@
-# Tiempo Grooves 🎶 - A weather based music web application
+# Tiempo Grooves 🎶 - A weather-based music web application
 
 A music application that lets you stream and groove to music across the world based on the weather conditions of the place you're living in, on the go!
 
