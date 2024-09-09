@@ -1,6 +1,7 @@
 # Tiempo Grooves 🎶 - A weather-based music web application
 
 Developed by: Shreya Pakala and Sahithi Venkatesan
+
 A music application that lets you stream and groove to music across the world based on the weather conditions of the place you're living in, on the go!
 
 This application has been built using [React JS](https://reactjs.org/) , [SoundCloud API](https://developers.soundcloud.com/), [OpenWeather API](https://openweathermap.org/) and [React-Player](https://www.npmjs.com/package/react-player)
